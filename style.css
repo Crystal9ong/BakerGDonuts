@@ -306,7 +306,7 @@ ul.nav_line:before {
 
 /*--------------- top start ---------------*/
 .top_bg {
-    background-image: url(/image/top_dotted_bg.png);
+    background-image: url(./image/top_dotted_bg.png);
 }
 
 .top {
@@ -544,7 +544,7 @@ ul.nav_line:before {
 
 /*--------------- story start ---------------*/
 .story {
-    background-image: url(/image/blur.png);
+    background-image: url(./image/blur.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -645,7 +645,7 @@ ul.nav_line:before {
 
 /*--------------- glory start ---------------*/
 .glory_bg {
-    background-image: url(/image/top_dotted_bg.png);
+    background-image: url(./image/top_dotted_bg.png);
 }
 
 .glory {
