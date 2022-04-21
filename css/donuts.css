@@ -187,7 +187,7 @@ ul.nav_line:before {
     margin-top: 30px;
 }
 
-.top_title{
+.top_title {
     font-size: 64px;
     line-height: 64px;
     font-weight: bold;
@@ -206,7 +206,7 @@ ul.nav_line:before {
 
 /*-------- top end --------*/
 
-/*-------- donuts start --------*/
+/*-------- donuts list start --------*/
 .donuts {
     margin-top: -40px;
     background-color: #FFDFA2;
@@ -218,7 +218,22 @@ ul.nav_line:before {
     display: flex;
     justify-content: space-between;
     padding-top: 140px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
+}
+
+.donuts_list a {
+    text-decoration: none;
+    color: #565656;
+}
+
+.donuts_list img:hover {
+    animation: rotated 5s linear infinite;
+}
+
+@keyframes rotated {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .donuts_list h5 {
@@ -227,7 +242,54 @@ ul.nav_line:before {
     text-align: center;
     margin-top: 10px;
 }
+
+/*-------- donuts list end --------*/
+
+/*-------- donuts start --------*/
+.donuts_items {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.donuts_container {
+    width: 250px;
+    height: 220px;
+    background-image: url('../image/donuts/d_bg.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    justify-content: space-between;
+    
+}
+
+.donuts_items ul{
+    display: flex; 
+    justify-content: space-between;  
+    flex-wrap: wrap; 
+}
+
+.donuts_items li{
+    margin-bottom: 40px;
+}
+
+
+.donuts_item {
+    filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
+    
+}
+
+.donuts_items h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.donuts_items h4 {
+    font-size: 30px;
+}
+
 /*-------- donuts end --------*/
+
 /*--------------- main end ---------------*/
 
 /*--------------- footer start ---------------*/
