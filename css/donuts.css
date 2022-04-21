@@ -253,20 +253,24 @@ ul.nav_line:before {
     padding-bottom: 50px;
 }
 
-.donuts_container {
+.donuts_items ul{
+    display: flex; 
+    justify-content: space-between;  
+    flex-wrap: wrap; 
+}
+
+.donuts_items a{
+    text-decoration: none;
+    color:#565656
+}
+
+.donuts_container{
     width: 250px;
     height: 220px;
     background-image: url('../image/donuts/d_bg.png');
     background-repeat: no-repeat;
     background-position: top right;
     justify-content: space-between;
-    
-}
-
-.donuts_items ul{
-    display: flex; 
-    justify-content: space-between;  
-    flex-wrap: wrap; 
 }
 
 .donuts_items li{
