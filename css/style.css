@@ -1,4 +1,4 @@
-@import url("./css/reset.css");
+@import url("reset.css");
 
 body {
     background-color: #FFDFA2;
@@ -16,7 +16,7 @@ img {
 .dialog {
     width: 510px;
     height: 530px;
-    background-image: url(./image/dialog.png);
+    background-image: url('../image/dialog.png');
     background-repeat: no-repeat;
     display: flex;
     position: absolute;
@@ -306,7 +306,7 @@ ul.nav_line:before {
 
 /*--------------- top start ---------------*/
 .top_bg {
-    background-image: url(./image/top_dotted_bg.png);
+    background-image: url(../image/top_dotted_bg.png);
 }
 
 .top {
@@ -544,7 +544,7 @@ ul.nav_line:before {
 
 /*--------------- story start ---------------*/
 .story {
-    background-image: url(./image/blur.png);
+    background-image: url("../image/blur.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -645,7 +645,7 @@ ul.nav_line:before {
 
 /*--------------- glory start ---------------*/
 .glory_bg {
-    background-image: url(./image/top_dotted_bg.png);
+    background-image: url(../image/top_dotted_bg.png);
 }
 
 .glory {
@@ -703,7 +703,7 @@ ul.nav_line:before {
     width: 250px;
     display: inline-block;
     text-align: center;
-    background-image: url(./image/comments_02.png);
+    background-image: url(../image/comments_02.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 43px;
@@ -796,7 +796,7 @@ margin-left: 30px;
 .dialog_shop {
     width: 510px;
     height: 530px;
-    background-image: url(./image/dialog.png);
+    background-image: url(../image/dialog.png);
     background-repeat: no-repeat;
     display: flex;
     position: absolute;

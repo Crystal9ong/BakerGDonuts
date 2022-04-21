@@ -14,7 +14,7 @@
     <meta name="description"
         content="Baker G. using simple plant-derived materials so that anyone can enjoy their donut time as much as possible.">
     <link rel="shortcut icon" href="./image/shortcut_icon.png">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +45,9 @@
                             d="M9 0C4.41993 0 0.707031 3.71288 0.707031 8.29297C0.707031 9.82467 1.00684 11.4067 1.86718 12.5469L9 22L16.1328 12.5469C16.9143 11.5112 17.293 9.68035 17.293 8.29297C17.293 3.71288 13.5801 0 9 0ZM9 4.80309C10.9271 4.80309 12.4899 6.36585 12.4899 8.29295C12.4899 10.2201 10.9271 11.7828 9 11.7828C7.07288 11.7828 5.51015 10.2201 5.51015 8.29297C5.51015 6.36585 7.07288 4.80309 9 4.80309Z"
                             fill="#565656" />
                     </svg>
-                    <a class="nav_item" href="https://www.google.com.tw/maps/search/taipei+101/@25.0337092,121.5638839,19z/data=!3m1!4b1?hl=zh-TW" target="_blank">TAIPEI</a>
+                    <a class="nav_item"
+                        href="https://www.google.com.tw/maps/search/taipei+101/@25.0337092,121.5638839,19z/data=!3m1!4b1?hl=zh-TW"
+                        target="_blank">TAIPEI</a>
                 </li>
                 <li>
                     <a class="shoppiing" href="#">
@@ -104,7 +106,7 @@
             </aside>
             <!------------------ social end ------------------>
             <!------------------ popup bn start ------------------>
-            <section class="form-popup">
+            <!-- <section class="form-popup">
                 <div><img src="./image/popup_logo.png" alt="popup logo"></div>
                 <div class="cancel"><img src="./image/cancel.png" alt=""></div>
                 <h3 class="akshar">JOIN BAKER G.</h3>
@@ -118,8 +120,10 @@
                     </p>
                 </div>
                 <a class="btn_w" href="#">Send</a>
-            </section>
+            </section> -->
             <!------------------ popup bn end ------------------>
+
+            <!------------------ top start ------------------>
             <section class="top_bg">
                 <div class="top">
                     <div class="text_container">
@@ -129,7 +133,7 @@
                     </div>
                     <div class="slider_container">
                         <div class="donut_display">
-                            <img src="./image/top_donut.png" alt="">
+                            <img src="./image/top_donut_01.png" alt="">
                         </div>
                         <div class="slider_decoration">
                             <div class="flag">
@@ -143,6 +147,15 @@
                     </div>
                 </div>
                 <!------------------ top end ------------------>
+
+                <section class="sliders">
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </section>
 
                 <!------------------ news start ------------------>
                 <section class="news">
@@ -373,7 +386,7 @@
                             More Details
                         </a>
                     </div>
-                    
+
                 </div>
             </section>
             <!------------------ shop end ------------------>
@@ -405,7 +418,7 @@
             <!------------------ footer end ------------------>
         </main>
     </header>
-    <script src="/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
