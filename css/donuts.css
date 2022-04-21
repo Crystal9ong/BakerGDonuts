@@ -270,7 +270,8 @@ ul.nav_line:before {
     background-image: url('../image/donuts/d_bg.png');
     background-repeat: no-repeat;
     background-position: top right;
-    justify-content: space-between;
+display: flex;
+align-items: flex-end;
 }
 
 .donuts_items li{
@@ -284,6 +285,7 @@ ul.nav_line:before {
 }
 
 .donuts_items h5 {
+    margin-top: 10px;
     font-size: 24px;
     font-weight: bold;
 }
