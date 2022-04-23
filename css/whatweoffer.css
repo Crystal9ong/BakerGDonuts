@@ -3,7 +3,7 @@
 body {
     background-color: #FFDFA2;
     line-height: 1.6;
-    font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
+    font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 18px;
     min-width: 100%;
@@ -13,174 +13,224 @@ img {
     display: block;
 }
 
-p{
+p {
     font-weight: 500;
 }
 
-.hand_line{
+.hand_line {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     z-index: -1;
 }
-/* --------------- font start --------------- */
-.akshar {
-    font-size: 20px;
-    font-family: 'Akshar';
-    font-style: italic;
-    font-weight: 600;
-    color: #EC6D4E;
+
+/* --------------- what offer start --------------- */
+.whatweoffer {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.display_title {
+    position: relative;
 }
 
 .libre {
     margin: 10px 0 40px;
     font-size: 56px;
-    /* line-height: 35px; */
+    line-height: 35px;
     font-family: 'Libre Baskerville';
     font-weight: bold;
 }
 
-.signature{
+.quote {
+    position: absolute;
+    top: -30px;
+    left: 227px;
+    z-index: -1;
+}
+
+/* -------- donuts front start -------- */
+.donuts_front {
+    position: relative;
+}
+
+.delicious {
     font-family: 'Caveat';
-    font-size: 80px;
+    letter-spacing: -3px;
+    position: absolute;
+    color: #EC6D4E;
+    font-size: 70px;
+    line-height: 70px;
+    white-space: nowrap;
+    transform: rotate(-8.47deg);
+    top: 507px;
+    left: -15px;
+    z-index: 1;
 }
-/* --------------- font end --------------- */
 
-/* --------------- emily start --------------- */
-.story{
-    width: 960px;
+.donuts_front img, .donuts_side img {
     margin: 0 auto;
-    display: flex;
+    margin-top: 160px;
+}
+
+.front_item_01, .front_item_02, .front_item_03 {
     position: relative;
-    margin-top: 80px;
-    margin-bottom: 120px;
 }
 
-.story .bio{
-    text-align: center;
-    padding: 60px 0 60px 60px;
-}
-
-.bio .quote{
+.front_item_01 h4 {
     position: absolute;
-    top:100px;
-    left: 451px;
-    z-index: -1;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    top: 5px;
+    right: 80px;
 }
 
-.bio p{
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.emily_shadow{
-    width: 350px;
-    height: 260px;
-    background-color: #EC6D4E;
+.front_item_01:after {
+    content: "";
+    width: 230px;
+    height: 3px;
+    transform: rotate(-21.22deg);
+    background-color: #565656;
     position: absolute;
-    top:333px;
-    left: -29px;
-    z-index: -1;
-}
-/* ------ data start ------ */
-.story_data{
-margin-bottom: 80px;
+    top: 86px;
+    right: 180px;
 }
 
-.story_data ul{
-    width: 960px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.front_item_02 h4 {
+    position: absolute;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    top: 237px;
+    left: 0px;
 }
 
-.story_data h3{
-    line-height: 60px;
-    font-size:60px;
-    font-weight: bold;
+.front_item_02:after {
+    content: "";
+    width: 230px;
+    height: 3px;
+    background-color: #565656;
+    position: absolute;
+    top: 260px;
+    left: 148px;
 }
 
-.story_data p{
-    font-size:24px;
+.front_item_03 h4 {
+    position: absolute;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    bottom: -570px;
+    right: 130px;
 }
 
-.story_data li{
-    text-align: center;
+.front_item_03:after {
+    content: "";
+    width: 230px;
+    height: 3px;
+    transform: rotate(47.97deg);
+    background-color: #565656;
+    position: absolute;
+    bottom: -460px;
+    right: 240px;
 }
-/* ------ data end ------ */
+/* -------- donuts front end -------- */
 
-.story_bg{
-    height: 500px;
-    background-image: url('../image/story/story_bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/* ------ whoweare start ------ */
-.whoweare{
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
+/* -------- donuts side start -------- */
+.donuts_side{
     position: relative;
-    margin-top: 140px;
-    margin-bottom: 140px;
 }
 
-.whoweare_desc{
-    padding: 80px 100px 80px 0;
-}
-
-.text_path{
+.side_line_01{
     position: absolute;
-    top:-33px;
-    left: 663px;
-    animation: rotate 30s linear infinite;
+    top:167px;
+    right: 317px;
 }
 
-@keyframes rotate {
-    100% {transform: rotate(360deg);}
+.side_line_01 span {
+    border-top:10px dotted #565656;
+    width:330px;
+    transform: rotate(90deg);
+    position: absolute;
   }
 
-.whoweare .quote{
+  .side_line_01 h4{
     position: absolute;
-    top:82px;
-    left: -21px;
-    z-index: -1;
-}
-/* ------ whoweare end ------ */
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    transform: rotate(-90deg);
+    top:-100px;
+    right: 130px;
+  }
 
-/* ------ process start ------ */
-.process{
-    background-color: #FFF3DC;
-    height: 400px;
+  .side_line_02{
+    position: absolute;
+    top:400px;
+    right: 731px;
+}
+
+.side_line_02 span {
+    border-top:10px dotted #565656;
+    width:490px;
+    position: absolute;
+  }
+
+  .side_line_02 h4{
+    position: absolute;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    top:27px;
+    right: 200px;
+  }
+
+
+/* -------- donuts side end -------- */
+
+/* -------- ingredients start -------- */
+.ingredients{
+    width: 960px;
+margin-top: 250px;
+margin-bottom: 100px;
+}
+
+.ingredients ul{
     display: flex;
+    justify-content: space-around;
 }
 
-.process ul{
-    width: 1200px;
+.ingredients li{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     display: flex;
-    margin: 0 auto;
+   align-items: center;
 }
 
-.process img:nth-child(1),.process img:nth-child(2){
-    margin-right: 20px;
-}
-
-.process img{
-    margin-top: -80px;
-}
-
-.process_desc{
-    margin: 80px 0 0 60px;
-}
-
-.process_desc h4{
-    font-size: 36px;
-    line-height: 42px;
-    font-family: 'Libre Baskerville';
+.ingredients h3{
+    font-family: 'Libre Bodoni';
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 30px;
+    color: #FAFAFA;
+    margin: 0 auto;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
-/* ------ process end ------ */
-/* --------------- emily end --------------- */
+
+.food_item_01{
+    background-image: url('../image/whatweoffer/i_01.png');
+}
+
+.food_item_02{
+    background-image: url('../image/whatweoffer/i_02.png');
+}
+
+.food_item_03{
+    background-image: url('../image/whatweoffer/i_03.png');
+}
+/* -------- ingredients end -------- */
+
+/* --------------- what offer end --------------- */
