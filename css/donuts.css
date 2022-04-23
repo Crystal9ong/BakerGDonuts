@@ -181,7 +181,7 @@ align-items: flex-end;
 .dialog {
     width: 510px;
     height: 530px;
-    background-image: url('/image/dialog.png');
+    background-image: url('../image/dialog.png');
     background-repeat: no-repeat;
     display: flex;
     z-index: 1;
