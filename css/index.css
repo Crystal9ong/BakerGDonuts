@@ -3,67 +3,19 @@
 body {
     background-color: #FFDFA2;
     line-height: 1.6;
-    font-family: Calibri;
+    font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
     color: #565656;
     font-size: 18px;
+    min-width: 100%;
 }
 
 img {
     display: block;
 }
 
-/*--------------- dialog start ---------------*/
-.dialog {
-    width: 510px;
-    height: 530px;
-    background-image: url('../image/dialog.png');
-    background-repeat: no-repeat;
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    top: 129px;
-    left: 0px;
+p{
+    font-weight: 500;
 }
-
-.dialog_text {
-    width: 325px;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    vertical-align: baseline;
-}
-
-.akshar {
-    font-size: 20px;
-    font-family: 'Akshar';
-    font-style: italic;
-    font-weight: 600;
-    color: #EC6D4E;
-}
-
-.libre {
-    margin: 10px 0 40px;
-    font-size: 32px;
-    line-height: 35px;
-    font-family: 'Libre Baskerville';
-    font-weight: bold;
-}
-
-.dialog_text p {
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.dialog_text h2:after {
-    content: '';
-    height: 3px;
-    width: 60px;
-    background-color: #FFCF75;
-    position: absolute;
-    top: 134px;
-    left: 136px;
-}
-/*--------------- dialog end ---------------*/
 
 /*--------------- button start ---------------*/
 .btn_o {
@@ -100,80 +52,7 @@ img {
     background-color: #FAFAFA;
 
 }
-
 /*--------------- button end ---------------*/
-
-/*--------------- navbar start ---------------*/
-.nav {
-    width: 1440px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.nav_item {
-    text-decoration: none;
-    color: #565656;
-    font-size: 20px;
-}
-
-.nav_item_main {
-    text-decoration: none;
-    color: #565656;
-    font-size: 20px;
-    border-bottom: #565656 5px solid;
-    padding-bottom: 5px;
-}
-
-.nav_item:hover {
-    border-bottom: #565656 5px solid;
-    padding-bottom: 5px;
-}
-
-.nav ul {
-    display: flex;
-    width: 1440px;
-    position: relative;
-    justify-content: space-between;
-}
-
-ul.nav_line {
-    margin-top: 30px;
-}
-
-.nav li {
-    font-size: 1.25em;
-    width: 140px;
-}
-
-.nav_logo {
-    width: 110px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-ul.nav_line:after {
-    content: '';
-    height: 1px;
-    width: 650px;
-    background-color: #565656;
-    position: absolute;
-    top: 60px;
-}
-
-ul.nav_line:before {
-    content: '';
-    height: 1px;
-    width: 650px;
-    background-color: #565656;
-    position: absolute;
-    top: 60px;
-    right: 0px;
-}
-
-.shoppiing svg:hover{
-    transform: scale(1.05);
-}
-/*--------------- navbar end ---------------*/
 
 /*--------------- popup bn start ---------------*/
 .form-popup{
@@ -260,7 +139,7 @@ ul.nav_line:before {
 
 /*--------------- social start ---------------*/
 .aside {
-    height: 220px;
+    height: 250px;
     position: fixed;
     top: 0px;
     bottom: 0px;
@@ -273,17 +152,18 @@ ul.nav_line:before {
 }
 
 .aside li {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .follow {
     transform: rotate(90deg);
+    font-weight: 500;
 }
 
 .straight_line {
     content: '';
     height: 1px;
-    width: 60px;
+    /* width: 60px; */
     background-color: #565656;
     transform: rotate(90deg);
 }
@@ -293,6 +173,7 @@ ul.nav_line:before {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top:-20px;
 }
 
 .social svg {
@@ -323,7 +204,7 @@ ul.nav_line:before {
 }
 
 .text_container h1 {
-    font-size: 110px;
+    font-size: 90px;
     font-weight: 700;
     line-height: 130px;
 }
@@ -334,22 +215,26 @@ ul.nav_line:before {
 
 .flag {
     position: absolute;
-    top: -453px;
-    left: 87px;
+    top: -461px;
+    left: 155px;
+}
+
+.flag h5{
+    font-weight: bold;
 }
 
 .flag_text {
     position: absolute;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 400;
     transform: rotate(-14.07deg);
     color: #000000;
-    top: 10px;
-    left: 17px;
+    top: 12px;
+    left: 12px;
 }
 
 .donut_display {
-    margin-left: 80px;
+    margin-left: 146px;
     filter: drop-shadow(39px 35px 26px rgba(0, 0, 0, 0.25));
 }
 
@@ -357,25 +242,26 @@ ul.nav_line:before {
     height: 170px;
     position: absolute;
     top: -135px;
-    left: 399px;
+    left: 440px;
     z-index: -1;
 }
 
 .highlight_bg {
     background-color: #FFCF75;
-    width: 673px;
-    height: 111px;
+    width: 626px;
+    height: 106px;
     position: absolute;
     z-index: -1;
-    top: 271px;
-    right: -20px;
+    top: 272px;
+    right: -10px;
 }
 
 .text_container span {
-    font-family: 'Freestyle Script';
+    font-family: 'Caveat';
+    letter-spacing: -3px;
     position: absolute;
     color: #EC6D4E;
-    font-size: 96px;
+    font-size: 100px;
     white-space: nowrap;
     transform: rotate(-8.47deg);
     top: 83px;
@@ -402,6 +288,7 @@ ul.nav_line:before {
     height: 75px;
     display: flex;
     margin: 0 auto;
+    font-weight: 500;
 }
 
 .news_item img {
@@ -461,16 +348,14 @@ ul.nav_line:before {
 
 .dialog .dotted_bg{
     position: absolute;
-    top:649px;
-    left: -420px;
-}
-
-.choc {
-    position: relative;
+    top:654px;
+    left: -455px;
+    z-index: -1;
 }
 
 .choc span {
-    font-family: 'Freestyle Script';
+    font-family: 'Caveat';
+    letter-spacing: -3px;
     position: absolute;
     color: #000000;
     font-size: 96px;
@@ -500,7 +385,63 @@ ul.nav_line:before {
     width: 1440px;
     margin: 0 auto;
 }
+/*--------------- dialog start ---------------*/
+.dialog {
+    width: 510px;
+    height: 530px;
+    background-image: url('/image/dialog.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    top: 145px;
+    left: 0px;
+}
 
+.dialog_text {
+    width: 325px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.dialog_text span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.akshar {
+    font-size: 20px;
+    font-family: 'Akshar';
+    font-style: italic;
+    font-weight: 600;
+    color: #EC6D4E;
+}
+
+.libre {
+    margin: 10px 0 40px;
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+}
+
+.dialog_text p {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.dialog_text h2:after {
+    content: '';
+    height: 3px;
+    width: 60px;
+    background-color: #FFCF75;
+    position: absolute;
+    top: 133px;
+    left: 130px;
+}
+/*--------------- dialog end ---------------*/
 /*--------------- feature end ---------------*/
 
 /*--------------- how to buy start ---------------*/
@@ -667,7 +608,7 @@ ul.nav_line:before {
 }
 
 .slogan span {
-    font-family: 'Freestyle Script';
+    font-family: 'Caveat';
     font-size: 40px;
 }
 
@@ -700,13 +641,13 @@ ul.nav_line:before {
 }
 
 .comments_item {
-    width: 250px;
+    width: 300px;
     display: inline-block;
     text-align: center;
     background-image: url(../image/comments_02.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 43px;
+    padding: 45px;
     justify-content: space-around;
 }
 
@@ -722,15 +663,15 @@ ul.nav_line:before {
 
 .comments_item p {
     font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 15px;
+    line-height: 32px;
+    margin-bottom: 20px;
 }
 
 .stars {
     width: 145px;
     display: flex;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 /*--------------- glory end ---------------*/
@@ -792,7 +733,6 @@ margin-left: 30px;
   }
 
 /*--------------- dialog start ---------------*/
-
 .dialog_shop {
     width: 510px;
     height: 530px;
@@ -828,59 +768,3 @@ margin-left: 30px;
 }
 /*--------------- dialog end ---------------*/
 /*--------------- shop end ---------------*/
-
-/*--------------- footer start ---------------*/
-.footer{
-    background-color: #EC6D4E;
-}
-
-.footer_all{
-    padding-top:60px;
-    padding-bottom:60px;
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.footer_items{
-    align-items: center;
-}
-
-.footer_list a{
-    text-decoration: none;
-    color: #FAFAFA;
-    font-size: 20px;
-    margin: 0 60px;
-}
-
-.footer ul{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom:40px;
-}
-
-.footer_item:hover {
-    border-bottom: #FAFAFA 5px solid;
-    padding-bottom: 5px;
-}
-
-.footer_social{
-    display: flex;
-}
-
-.footer_social_item_02, .footer_social_item_03{
-    padding-left: 20px;
-}
-
-.footer_bottom{
-    color: #FAFAFA;
-    text-align: center;
-}
-
-.footer_bottom span{
-    font-size: 16px;
-}
-
-.footer_social img:hover {
-    transform: scale(1.2);
-}
-/*--------------- footer end ---------------*/

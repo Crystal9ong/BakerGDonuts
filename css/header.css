@@ -1,0 +1,73 @@
+/*--------------- navbar start ---------------*/
+.nav {
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav_item {
+    text-decoration: none;
+    color: #565656;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+.nav_item_main {
+    text-decoration: none;
+    color: #565656;
+    font-size: 20px;
+    border-bottom: #565656 5px solid;
+    padding-bottom: 5px;
+}
+
+.nav_item:hover {
+    border-bottom: #565656 5px solid;
+    padding-bottom: 5px;
+}
+
+.nav ul {
+    display: flex;
+    width: 1440px;
+    position: relative;
+    justify-content: space-between;
+}
+
+ul.nav_line {
+    margin-top: 30px;
+}
+
+.nav li {
+    font-size: 1.25em;
+    width: 170px;
+    font-weight: 600;
+}
+
+.nav_logo {
+    width: 110px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.nav_line:after {
+    content: '';
+    height: 1px;
+    width: 650px;
+    background-color: #565656;
+    position: absolute;
+    top: 60px;
+}
+
+ul.nav_line:before {
+    content: '';
+    height: 1px;
+    width: 650px;
+    background-color: #565656;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.shoppiing svg:hover{
+    transform: scale(1.05);
+}
+/*--------------- navbar end ---------------*/

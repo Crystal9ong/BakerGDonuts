@@ -1,70 +1,21 @@
-@import url("./reset.css");
+@import url("reset.css");
 
 body {
     background-color: #FFF3DC;
     line-height: 1.6;
-    font-family: Calibri;
+    font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
     color: #565656;
     font-size: 18px;
+    min-width: 100%;
 }
 
 img {
     display: block;
 }
 
-/*--------------- dialog start ---------------*/
-.dialog {
-    width: 510px;
-    height: 530px;
-    background-image: url('./image/dialog.png');
-    background-repeat: no-repeat;
-    display: flex;
-    position: absolute;
-    z-index: 1;
-    top: 129px;
-    left: 0px;
+p{
+    font-weight: 500;
 }
-
-.dialog_text {
-    width: 325px;
-    margin: auto;
-    text-align: center;
-    position: relative;
-    vertical-align: baseline;
-}
-
-.akshar {
-    font-size: 20px;
-    font-family: 'Akshar';
-    font-style: italic;
-    font-weight: 600;
-    color: #EC6D4E;
-}
-
-.libre {
-    margin: 10px 0 40px;
-    font-size: 32px;
-    line-height: 35px;
-    font-family: 'Libre Baskerville';
-    font-weight: bold;
-}
-
-.dialog_text p {
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.dialog_text h2:after {
-    content: '';
-    height: 3px;
-    width: 60px;
-    background-color: #FFCF75;
-    position: absolute;
-    top: 134px;
-    left: 136px;
-}
-
-/*--------------- dialog end ---------------*/
 
 /*--------------- button start ---------------*/
 .btn_o {
@@ -101,84 +52,8 @@ img {
     background-color: #FAFAFA;
 
 }
-
 /*--------------- button end ---------------*/
 
-/*--------------- navbar start ---------------*/
-.nav {
-    width: 1440px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.nav_item {
-    text-decoration: none;
-    color: #565656;
-    font-size: 20px;
-}
-
-.nav_item_main {
-    text-decoration: none;
-    color: #565656;
-    font-size: 20px;
-    border-bottom: #565656 5px solid;
-    padding-bottom: 5px;
-
-}
-
-.nav_item:hover {
-    border-bottom: #565656 5px solid;
-    padding-bottom: 5px;
-}
-
-.nav ul {
-    display: flex;
-    width: 1440px;
-    position: relative;
-    justify-content: space-between;
-}
-
-ul.nav_line {
-    margin-top: 30px;
-}
-
-.nav li {
-    font-size: 1.25em;
-    width: 140px;
-}
-
-.nav_logo {
-    width: 110px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-ul.nav_line:after {
-    content: '';
-    height: 1px;
-    width: 650px;
-    background-color: #565656;
-    position: absolute;
-    top: 60px;
-}
-
-ul.nav_line:before {
-    content: '';
-    height: 1px;
-    width: 650px;
-    background-color: #565656;
-    position: absolute;
-    top: 60px;
-    right: 0px;
-}
-
-.shoppiing svg:hover {
-    transform: scale(1.05);
-}
-
-/*--------------- navbar end ---------------*/
-
-/*--------------- main start ---------------*/
 /*-------- top start --------*/
 .top {
     width: 920px;
@@ -191,6 +66,7 @@ ul.nav_line:before {
     font-size: 64px;
     line-height: 64px;
     font-weight: bold;
+    font-family: 'Quicksand';
 }
 
 .top_banner {
@@ -203,7 +79,6 @@ ul.nav_line:before {
     top: 343px;
     left: 843px;
 }
-
 /*-------- top end --------*/
 
 /*-------- donuts list start --------*/
@@ -264,6 +139,10 @@ ul.nav_line:before {
     color:#565656
 }
 
+.donuts_items li{
+    margin-bottom: 40px;
+}
+
 .donuts_container{
     width: 250px;
     height: 220px;
@@ -274,14 +153,12 @@ display: flex;
 align-items: flex-end;
 }
 
-.donuts_items li{
-    margin-bottom: 40px;
-}
-
-
 .donuts_item {
     filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.25));
-    
+}
+
+.donuts_item:hover {
+    transform: scale(1.05);
 }
 
 .donuts_items h5 {
@@ -293,65 +170,108 @@ align-items: flex-end;
 .donuts_items h4 {
     font-size: 30px;
 }
-
 /*-------- donuts end --------*/
-
-/*--------------- main end ---------------*/
-
-/*--------------- footer start ---------------*/
-.footer {
-    background-color: #EC6D4E;
+/*-------- event start --------*/
+.event{
+    background-image:url(../image/top_dotted_bg.png)
+    
 }
 
-.footer_all {
-    padding-top: 60px;
-    padding-bottom: 60px;
+/*--------------- dialog start ---------------*/
+.dialog {
+    width: 510px;
+    height: 530px;
+    background-image: url('/image/dialog.png');
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: 1;
+    top: 129px;
+    left: 0px;
+}
+
+.dialog_text {
+    width: 325px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.dialog_text span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.akshar {
+    font-size: 20px;
+    font-family: 'Akshar';
+    font-style: italic;
+    font-weight: 600;
+    color: #EC6D4E;
+}
+
+.libre {
+    margin: 10px 0 40px;
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 'Libre Baskerville';
+    font-weight: bold;
+}
+
+.dialog_text p {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.dialog_text h2:after {
+    content: '';
+    height: 3px;
+    width: 60px;
+    background-color: #FFCF75;
+    position: absolute;
+    top: 96px;
+    left: 130px;
+}
+/*--------------- dialog end ---------------*/
+.event_container{
     width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    position: relative;
+    display: flex;
+}
+
+.event_gift{
+    width: 566px;
+    position: relative;
     margin: 0 auto;
 }
 
-.footer_items {
-    align-items: center;
+.event_gift span{
+    font-family: 'Caveat';
+    letter-spacing: -3px;
+    position: absolute;
+    color: #EC6D4E;
+    font-size: 100px;
+    white-space: nowrap;
+    transform: rotate(-8.47deg);
+    top: 26px;
+    left: 165px;
+    z-index: 2;
 }
 
-.footer_list a {
-    text-decoration: none;
-    color: #FAFAFA;
-    font-size: 20px;
-    margin: 0 60px;
+.donutsbox{
+    position: absolute;
+    top: 137px;
+    left: 116px;
+    z-index: 1;
 }
 
-.footer ul {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+.giftcup{
+    position: absolute;
+    top: 162px;
+    left: 0px;
 }
-
-.footer_item:hover {
-    border-bottom: #FAFAFA 5px solid;
-    padding-bottom: 5px;
-}
-
-.footer_social {
-    display: flex;
-}
-
-.footer_social_item_02,
-.footer_social_item_03 {
-    padding-left: 20px;
-}
-
-.footer_bottom {
-    color: #FAFAFA;
-    text-align: center;
-}
-
-.footer_bottom span {
-    font-size: 16px;
-}
-
-.footer_social img:hover {
-    transform: scale(1.2);
-}
-
-/*--------------- footer end ---------------*/
+/*-------- event end --------*/
+/*--------------- main end ---------------*/
