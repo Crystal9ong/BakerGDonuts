@@ -353,6 +353,12 @@ p{
     z-index: -1;
 }
 
+.choc {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
 .choc span {
     font-family: 'Caveat';
     letter-spacing: -3px;
@@ -380,16 +386,11 @@ p{
     left: -30px;
     z-index: -1;
 }
-
-.choc {
-    width: 1440px;
-    margin: 0 auto;
-}
 /*--------------- dialog start ---------------*/
 .dialog {
     width: 510px;
     height: 530px;
-    background-image: url('/image/dialog.png');
+    background-image: url('../image/dialog.png');
     background-repeat: no-repeat;
     position: absolute;
     display: flex;
