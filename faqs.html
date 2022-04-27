@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en, zh-Hank">
 <!--
-        Baker G. Donuts
-        www.bakerGdonuts.com
-    -->
+    Baker G. Donuts
+    www.bakerGdonuts.com
+-->
 
 <head>
     <meta charset="UTF-8">
@@ -14,13 +14,16 @@
     <meta name="description"
         content="Baker G. using simple plant-derived materials so that anyone can enjoy their donut time as much as possible.">
     <link rel="shortcut icon" href="./image/shortcut_icon.png">
-    <link rel="stylesheet" href="./donuts.css">
-
+    <link rel="stylesheet" href="./css/faqs.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!------------------ font ------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Akshar&family=Bebas+Neue&family=Hurricane&family=Palette+Mosaic&family=Playfair+Display:ital,wght@1,500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 </head>
 
@@ -30,7 +33,7 @@
         <nav class="nav">
             <ul class="nav_line">
                 <li><a class="nav_item" href="./story.html">STORY</a></li>
-                <li><a class="nav_item_main" href="./donuts.html">DONUTS</a></li>
+                <li><a class="nav_item" href="./donuts.html">DONUTS</a></li>
                 <li><a class="nav_item" href="./whatweoffer.html">WHAT WE OFFER</a></li>
                 <li>
                     <a href="index.html">
@@ -45,7 +48,9 @@
                             d="M9 0C4.41993 0 0.707031 3.71288 0.707031 8.29297C0.707031 9.82467 1.00684 11.4067 1.86718 12.5469L9 22L16.1328 12.5469C16.9143 11.5112 17.293 9.68035 17.293 8.29297C17.293 3.71288 13.5801 0 9 0ZM9 4.80309C10.9271 4.80309 12.4899 6.36585 12.4899 8.29295C12.4899 10.2201 10.9271 11.7828 9 11.7828C7.07288 11.7828 5.51015 10.2201 5.51015 8.29297C5.51015 6.36585 7.07288 4.80309 9 4.80309Z"
                             fill="#565656" />
                     </svg>
-                    <a class="nav_item" href="https://www.google.com.tw/maps/search/taipei+101/@25.0337092,121.5638839,19z/data=!3m1!4b1?hl=zh-TW" target="_blank">TAIPEI</a>
+                    <a class="nav_item"
+                        href="https://www.google.com.tw/maps/search/taipei+101/@25.0337092,121.5638839,19z/data=!3m1!4b1?hl=zh-TW"
+                        target="_blank">TAIPEI</a>
                 </li>
                 <li>
                     <a class="shoppiing" href="#">
@@ -65,35 +70,109 @@
             </ul>
         </nav>
         <!------------------ navbar end ------------------>
+    </header>
 
-        <!------------------ footer start ------------------>
-        <footer class="footer">
-            <div class="footer_all">
-                <ul class="footer_items">
-                    <li>
-                        <img src="./image/logo_f.png">
-                    </li>
-                    <li class="footer_list">
-                        <a class="footer_item" href="./faqs.html">FAQs</a>
-                        <a class="footer_item" href="./condition.html">TEAMS AND CONDITION</a>
-                        <a class="footer_item" href="./career.html">CAREER</a>
-                    </li>
-                    <li class="footer_social">
-                        <a class="footer_social_item_01" href="#"><img src="./image/icon/twitter_f.png" alt=""></a>
-                        <a class="footer_social_item_02" href="#"><img src="./image/icon/fb_f.png" alt=""></a>
-                        <a class="footer_social_item_03" href="#"><img src="./image/icon/ig_f.png" alt=""></a>
-                    </li>
-                </ul>
-                <div class="footer_bottom">
-                    <p>Copyright © BAKER-G CO., LTD. Allrights reserved.</p>
-                    <span>本網站為緯育TibaMe前端設計工程師班第76期學員專題作品，本平台僅供學習、展示之用。</span>
+    <!------------------ navbar end ------------------>
+    <main>
+        <!------------------ main start ------------------>
+        <!-------- top start -------->
+        <section class="top">
+            <h2 class="top_title">FAQs</h2>
+            <div class="top_banner_container">
+                <img class="top_banner" src="./image/faqs/top_banner.png" alt="">
+                <img class="top_deco" src="./image/dotted_bg.png" alt="">
+            </div>
+        </section>
+        <!-------- top end -------->
+        <section class="faqs">
+            <div class="faqs_container">
+                <div class="faqsbox faqs_item_1">
+                    <div class="q_container">
+                        <input type="checkbox" class="faqstoggle" id="toggle-1">
+                        <label class="faqs_title" for="toggle-1"></label>
+                    </div>
+                    <div class="ans_container">
+                        <span>Yes! We deliver 365 days all year.</span>
+                    </div>
+                </div>
+                <div class="faqsbox faqs_item_2">
+                    <div class="q_container">
+                        <input type="checkbox" class="faqstoggle" id="toggle-1">
+                        <label class="faqs_title" for="toggle-1"></label>
+                    </div>
+                    <div class="ans_container">
+                        <span>We deliver to adddresses within 20km<br>driving distance of our stores.</span>
+                    </div>
+                </div>
+                <div class="faqsbox faqs_item_3">
+                    <div class="q_container">
+                        <input type="checkbox" class="faqstoggle" id="toggle-1">
+                        <label class="faqs_title" for="toggle-1"></label>
+                    </div>
+                    <div class="ans_container">
+                        <span>You can get info. on our web<br>to get to know well which way is the shortest one.</span>
+                    </div>
+                </div>
+                <div class="faqsbox faqs_item_4">
+                    <div class="q_container">
+                        <input type="checkbox" class="faqstoggle" id="toggle-1">
+                        <label class="faqs_title" for="toggle-1"></label>
+                    </div>
+                    <div class="ans_container">
+                        <span>if you choose delivery,once you addressing are done we will deliver shortly.</span>
+                    </div>
+                </div>
+                <div class="faqsbox faqs_item_5">
+                    <div class="q_container">
+                        <input type="checkbox" class="faqstoggle" id="toggle-1">
+                        <label class="faqs_title" for="toggle-1"></label>
+                    </div>
+                    <div class="ans_container">
+                        <span>We use free range eggs and cultured butter<br>in all of our donuts.<br>We do not recently produce vegan ones, most of our products are lecto-vegetarian.</span>
+                    </div>
+                </div>
+                <div class="faqsbox faqs_item_6">
+                    <div class="q_container">
+                        <input type="checkbox" class="faqstoggle" id="toggle-1">
+                        <label class="faqs_title" for="toggle-1"></label>
+                    </div>
+                    <div class="ans_container">
+                        <span>We use wheat flour all the time!</span>
+                    </div>
                 </div>
             </div>
-        </footer>
-        <!------------------ footer end ------------------>
-        </main>
-    </header>
-    <script src="/donuts.js"></script>
+        </section>
+        <!------------------ main end ------------------>
+    </main>
+
+    <!------------------ footer start ------------------>
+    <footer class="footer">
+        <div class="footer_all">
+            <ul class="footer_items">
+                <li>
+                    <img src="./image/logo_f.png">
+                </li>
+                <li class="footer_list">
+                    <a class="footer_item_main" href="./faqs.html">FAQs</a>
+                    <a class="footer_item" href="./condition.html">TEAMS AND CONDITION</a>
+                    <a class="footer_item" href="./career.html">CAREER</a>
+                </li>
+                <li class="footer_social">
+                    <a class="footer_social_item_01" href="#"><img src="./image/icon/twitter_f.png" alt=""></a>
+                    <a class="footer_social_item_02" href="#"><img src="./image/icon/fb_f.png" alt=""></a>
+                    <a class="footer_social_item_03" href="#"><img src="./image/icon/ig_f.png" alt=""></a>
+                </li>
+            </ul>
+            <div class="footer_bottom">
+                <p>Copyright © BAKER-G CO., LTD. Allrights reserved.</p>
+                <span>本網站為緯育TibaMe前端設計工程師班第76期學員專題作品，本平台僅供學習、展示之用。</span>
+            </div>
+        </div>
+    </footer>
+    <!------------------ footer end ------------------>
+    </main>
+
+    <script src="./js/condition.js"></script>
 </body>
 
 </html>
