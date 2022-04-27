@@ -6,7 +6,7 @@ body {
     font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 18px;
-    min-width: 100%;
+    width: 100%;
 }
 
 img {
@@ -61,52 +61,56 @@ p {
     padding-bottom: 100px;
 }
 
-.faqs_item{
-    margin-bottom:12px;
+.faqs_item {
+    margin-bottom: 12px;
 }
 
-.q_container{
-    padding:1em 2em 1em 2em;
+.q_container {
+    padding: 1em 2em 1em 2em;
     background-color: #565656;
     /* position: relative; */
 }
 
-.faqstoggle{
+.faqstoggle {
     display: none;
     box-sizing: border-box;
 }
 
-.faqs_title{
-    font-weight:bold;
-    font-size:20px;
-    color:#fAFAFA;
-    display:block;
-}
-/* 
-.faqs_title::before{
-    content: '';
-position: absolute;
-width: 2em;
-height: 0.75em;
-background-color: #FAFAFA;
+.faqs_title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fAFAFA;
+    display: block;
 }
 
-.faqs_title::after{
+.faqs_title::before {
     content: '';
     position: absolute;
-
-} */
-
-.ans_container{
-    padding:1em 2em 1em 2em;
-    background-color:#FEF4E2;
+    width: 30px;
+    height: 3px;
+    background-color: #FAFAFA;
 }
 
-.faqsbox{
+.faqs_title::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    transform: rotate(90deg);
+    background-color: #FAFAFA;
+
+}
+
+.ans_container {
+    padding: 1em 2em 1em 2em;
+    background-color: #FEF4E2;
+}
+
+.faqsbox {
     margin-bottom: 20px;
 }
 
-.faqs_container span{
+.faqs_container span {
     font-size: 20px;
 }
 

@@ -6,7 +6,7 @@ body {
     font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
     color: #565656;
     font-size: 18px;
-    min-width: 100%;
+    width: 100%;
 }
 
 img {
@@ -103,6 +103,14 @@ p{
 
 .donuts_list img:hover {
     animation: rotated 5s linear infinite;
+}
+
+.donuts_list li{
+    
+    background-image: url('../image/donuts/point.png');
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 @keyframes rotated {
