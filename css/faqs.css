@@ -66,23 +66,39 @@ p {
 }
 
 .q_container{
-    padding:1em 1em 1em 1em;
-    background-color: #EC6D4E;
+    padding:1em 2em 1em 2em;
+    background-color: #565656;
+    /* position: relative; */
 }
 
 .faqstoggle{
     display: none;
+    box-sizing: border-box;
 }
 
 .faqs_title{
     font-weight:bold;
     font-size:20px;
-    color:#ffffff;
+    color:#fAFAFA;
     display:block;
 }
+/* 
+.faqs_title::before{
+    content: '';
+position: absolute;
+width: 2em;
+height: 0.75em;
+background-color: #FAFAFA;
+}
+
+.faqs_title::after{
+    content: '';
+    position: absolute;
+
+} */
 
 .ans_container{
-    padding:1em 1em 1em 1em;
+    padding:1em 2em 1em 2em;
     background-color:#FEF4E2;
 }
 
