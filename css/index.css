@@ -6,7 +6,7 @@ body {
     font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
     color: #565656;
     font-size: 18px;
-    width: 100%;
+    min-width:1200px;
 }
 
 img {
