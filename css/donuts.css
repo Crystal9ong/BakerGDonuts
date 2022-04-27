@@ -105,14 +105,6 @@ p{
     animation: rotated 5s linear infinite;
 }
 
-.donuts_list li{
-    
-    background-image: url('../image/donuts/point.png');
-    background-size:50%;
-    background-repeat: no-repeat;
-    background-position: top;
-}
-
 @keyframes rotated {
     100% {
         transform: rotate(360deg);

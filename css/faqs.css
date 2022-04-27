@@ -47,8 +47,9 @@ p {
     top: 343px;
     left: 843px;
 }
-
 /*-------- top end --------*/
+
+/*-------- faqs start --------*/
 .faqs {
     margin-top: -40px;
     background-color: #FFDFA2;
@@ -68,7 +69,6 @@ p {
 .q_container {
     padding: 1em 2em 1em 2em;
     background-color: #565656;
-    /* position: relative; */
 }
 
 .faqstoggle {
@@ -76,7 +76,11 @@ p {
     box-sizing: border-box;
 }
 
-.faqs_title {
+.faqs_title{
+    position: relative;
+}
+
+.faqs_title h3{
     font-weight: bold;
     font-size: 20px;
     color: #fAFAFA;
@@ -86,24 +90,29 @@ p {
 .faqs_title::before {
     content: '';
     position: absolute;
-    width: 30px;
-    height: 3px;
+    width: 20px;
+    height: 4px;
     background-color: #FAFAFA;
+    top:15px;
+    right: -922px;
 }
 
 .faqs_title::after {
     content: '';
     position: absolute;
-    width: 30px;
-    height: 3px;
+    width: 20px;
+    height: 4px;
     transform: rotate(90deg);
     background-color: #FAFAFA;
-
+    top:15px;
+    right: -922px;
+    display: none;
 }
 
 .ans_container {
     padding: 1em 2em 1em 2em;
     background-color: #FEF4E2;
+    /* display: none; */
 }
 
 .faqsbox {
@@ -113,27 +122,4 @@ p {
 .faqs_container span {
     font-size: 20px;
 }
-
-.faqs_item_1 label:after {
-    content: "DO YOU DELIVER?";
-}
-
-.faqs_item_2 label:after {
-    content: "HOW FAR DO YOU DELIVER?";
-}
-
-.faqs_item_3 label:after {
-    content: "AM I WITHIN THE DELIVERY RANGE?";
-}
-
-.faqs_item_4 label:after {
-    content: "PICK UP / DELIVER";
-}
-
-.faqs_item_5 label:after {
-    content: "WHICH DONUTS ARE VEGAN IN YOUR PLACE?";
-}
-
-.faqs_item_6 label:after {
-    content: "DO YOU SELL GLUTEN FREE DONUTS?";
-}
+/*-------- faqs end --------*/
