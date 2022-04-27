@@ -106,13 +106,13 @@ p {
     background-color: #FAFAFA;
     top:15px;
     right: -922px;
-    display: none;
+    display: block;
 }
 
 .ans_container {
     padding: 1em 2em 1em 2em;
     background-color: #FEF4E2;
-    /* display: none; */
+    display: block;
 }
 
 .faqsbox {
