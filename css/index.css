@@ -55,11 +55,10 @@ p{
 /*--------------- popup bn start ---------------*/
 .form-popup{
     position: absolute;
-    width: 280px;
-    height: 400px;
-    border: 10px #EC6D4E solid;
-    background-color: #565656;
-    padding: 20px;
+    width: 320px;
+    height: 420px;
+    background: linear-gradient(142.51deg, #EC6D4E, #FEC872, #EC6D4E);
+    padding: 10px;
     right: 0;
     position: fixed;
     top: 0px;
@@ -68,6 +67,11 @@ p{
     text-align: center;
     z-index: 3;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.20);
+}
+
+.popup{
+    padding: 20px;
+    background: #565656;
 }
 
 .popuplogo{
@@ -113,8 +117,9 @@ p{
 }
 
 .form-popup h4{
+    font-size: 14px;
     color: #FAFAFA;
-    font-weight: bold;
+    font-weight: 600;
     text-align: left;
     margin-top: 10px;
 }
@@ -127,15 +132,19 @@ p{
     margin: 5px 0;
 }
 
+.pop_email input:focus{
+    background-color: #FFCF75;
+outline: none;
+}
+
 .pop_email label{
     color: #FAFAFA;
     font-size: 12px;
 }
 
 #popbox{
-    text-align: center;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
 }
 
 .form-popup .btn_w{
@@ -277,6 +286,29 @@ p{
     z-index: 1;
 }
 
+/*--------------- slider start ---------------*/
+.slider{
+    position: relative;
+}
+
+.slider_item{
+    display: block;
+}
+
+#slider_01{
+    position:;
+}
+
+#slider_02, #slider_03{
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+/* ------ The dots/circles end ------ */
+
+/*--------------- slider end ---------------*/
+
 /*--------------- top end ---------------*/
 
 /*--------------- news start ---------------*/
@@ -287,8 +319,8 @@ p{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .news_item {
@@ -388,8 +420,8 @@ p{
 
 .cream_bg {
     position: absolute;
-    width: 850px;
-    height: 186px;
+    width: 900px;
+    height: 197px;
     background-color: #EC6D4E;
     top: -30px;
     left: -30px;
@@ -458,8 +490,8 @@ p{
 .howtobuy {
     width: 1080px;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .howtobuy .akshar {
@@ -602,7 +634,7 @@ p{
 }
 
 .glory {
-    padding-top: 80px;
+    padding-top: 100px;
     width: 1080px;
     margin: 0 auto;
 
@@ -632,8 +664,8 @@ p{
 }
 
 .comments {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -732,8 +764,8 @@ margin-left: 30px;
 .shop{
     width: 1080px;
     margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     position: relative;
 }
 

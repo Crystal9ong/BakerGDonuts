@@ -21,8 +21,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!------------------ font ------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Caveat:wght@400;500;600;700&family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -106,22 +108,24 @@
                 </ul>
             </aside>
             <!------------------ social end ------------------>
-          
+
             <!------------------ popup bn start ------------------>
             <section class="form-popup">
-                <div><img class="popuplogo" src="./image/popup_logo.png" alt="popup logo"></div>
-                <div class="cancel"><img class="cancel_img" src="./image/cancel.png" alt=""></div>
-                <h3 class="akshar">JOIN BAKER G.</h3>
-                <span>Get 10% OFF discount coupon<br>on your first order!</span>
-                <div class="pop_email">
-                    <h4>Write your email</h4>
-                    <input type="text" placeholder="Please provide your Email" name="email" required>
-                    <p>
-                        <input type="checkbox" id="popbox" value="" checked="checked">
-                        <label for="popbox">I agree with the privacy policy and the terms.</label>
-                    </p>
+                <div class="popup">
+                    <div><img class="popuplogo" src="./image/popup_logo.png" alt="popup logo"></div>
+                    <div class="cancel"><img class="cancel_img" src="./image/cancel.png" alt=""></div>
+                    <h3 class="akshar">JOIN BAKER G.</h3>
+                    <span>Get 10% OFF discount coupon<br>on your first order!</span>
+                    <div class="pop_email">
+                        <h4>Write your email</h4>
+                        <input type="text" placeholder="Please provide your Email" name="email" required>
+                        <p>
+                            <input type="checkbox" id="popbox" value="" checked="checked">
+                            <label for="popbox">I agree with the privacy policy and the terms.</label>
+                        </p>
+                    </div>
+                    <a class="btn_w" href="#">Send</a>
                 </div>
-                <a class="btn_w" href="#">Send</a>
             </section>
             <!------------------ popup bn end ------------------>
 
@@ -133,31 +137,62 @@
                         <div class="highlight_bg"></div>
                         <span>gluten free!</span>
                     </div>
-                    <div class="slider_container">
-                        <div class="donut_display">
-                            <img src="./image/top_donut_01.png" alt="">
+                    <div class="slider">
+                        <!-- The dots/circles start -->
+                        <div class="slider_dot">
+                            <ul>
+                                <li class="dot" onclick="currentSlide(1)"></span>
+                                <li class="dot" onclick="currentSlide(2)"></span>
+                                <li class="dot" onclick="currentSlide(3)"></span>
+                            </ul>
                         </div>
-                        <div class="slider_decoration">
-                            <div class="flag">
-                                <img src="./image/flag.png" alt="top one flag">
-                                <h5 class="flag_text">TOP 1</h5>
+                        <!-- The dots/circles end -->
+
+                        <div class="slider_item" id="slider_01">
+                            <div class="donut_display">
+                                <img src="./image/top_donut_01.png" alt="">
                             </div>
-                            <div class="dotted_bg">
-                                <img src="./image/dotted_bg.png">
+                            <div class="slider_decoration">
+                                <div class="flag">
+                                    <img src="./image/flag.png" alt="top one flag">
+                                    <h5 class="flag_text">TOP 1</h5>
+                                </div>
+                                <div class="dotted_bg">
+                                    <img src="./image/dotted_bg.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_item" id="slider_02">
+                            <div class="donut_display">
+                                <img src="./image/top_donut_02.png" alt="">
+                            </div>
+                            <div class="slider_decoration">
+                                <div class="flag">
+                                    <img src="./image/flag.png" alt="top one flag">
+                                    <h5 class="flag_text">TOP 2</h5>
+                                </div>
+                                <div class="dotted_bg">
+                                    <img src="./image/dotted_bg.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_item" id="slider_03">
+                            <div class="donut_display">
+                                <img src="./image/top_donut_03.png" alt="">
+                            </div>
+                            <div class="slider_decoration">
+                                <div class="flag">
+                                    <img src="./image/flag.png" alt="top one flag">
+                                    <h5 class="flag_text">TOP 3</h5>
+                                </div>
+                                <div class="dotted_bg">
+                                    <img src="./image/dotted_bg.png">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!------------------ top end ------------------>
-
-                <section class="sliders">
-                    <!-- The dots/circles -->
-                    <div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span>
-                        <span class="dot" onclick="currentSlide(2)"></span>
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                    </div>
-                </section>
 
                 <!------------------ news start ------------------>
                 <section class="news">
@@ -205,7 +240,7 @@
                             We have developed baker G. using simple plant-derived materials so that anyone can enjoy
                             their donut time as much as possible.
                         </p>
-                        <a class="btn_o" href="#">
+                        <a class="btn_o" href="./whatweoffer.html">
                             More Details
                         </a>
                     </div>
@@ -262,7 +297,7 @@
                         <p>Since opening our first store in Xinyi District in 2021, our loyal Baker G. customer base has
                             helped us fuel our growth. You can now find us in an ever-growing number of stores right
                             around Taipei city!</p>
-                        <a href="#" class="btn_w">More Details</a>
+                        <a href="./story.html" class="btn_w">More Details</a>
                     </div>
 
                 </div>
@@ -384,7 +419,8 @@
                         <p>
                             No. 211, Section 2, Zhongdong Xiao Road, Daan District, Taipei City
                         </p>
-                        <a class="btn_o" href="#">
+                        <a class="btn_o" href="https://www.google.com.tw/maps/search/taipei+101/@25.0337092,121.5638839,19z/data=!3m1!4b1?hl=zh-TW"
+                        target="_blank">
                             More Details
                         </a>
                     </div>

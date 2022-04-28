@@ -61,18 +61,23 @@ p {
     letter-spacing: -3px;
     position: absolute;
     color: #EC6D4E;
-    font-size: 80px;
-    line-height: 70px;
+    font-size: 70px;
+    line-height: 80px;
     white-space: nowrap;
     transform: rotate(-8.47deg);
-    top: 531px;
+    top: 545px;
     left: -15px;
     z-index: 1;
 }
 
-.donuts_front img, .donuts_side img {
+.donuts_front img {
     margin: 0 auto;
     margin-top: 160px;
+}
+
+.donuts_side img {
+    margin: 0 auto;
+    margin-top: 220px;
 }
 
 .front_item_01, .front_item_02, .front_item_03 {
