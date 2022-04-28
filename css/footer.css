@@ -6,7 +6,7 @@
 .footer_all{
     padding-top:60px;
     padding-bottom:60px;
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
 }
 
@@ -14,12 +14,16 @@
     align-items: center;
 }
 
+.footer_logo{
+    width: 70%;
+}
+
 .footer_list a{
     text-decoration: none;
     color: #FAFAFA;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0 60px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .footer ul{
@@ -29,7 +33,12 @@
 }
 
 .footer_item:hover {
-    border-bottom: #FAFAFA 5px solid;
+    border-bottom: #FAFAFA 4px solid;
+    padding-bottom: 5px;
+}
+
+.footer_item_main {
+    border-bottom: #FAFAFA 4px solid;
     padding-bottom: 5px;
 }
 

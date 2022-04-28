@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
-    font-size: 18px;
+    font-size: 16px;
     min-width:1440px;
 }
 
@@ -16,15 +16,9 @@ img {
 p {
     font-weight: 500;
 }
-
-.footer_item_main {
-    border-bottom: #FAFAFA 5px solid;
-    padding-bottom: 5px;
-}
-
 /*--------------- button start ---------------*/
 .btn_o {
-    font-size: 18px;
+    font-size: 16px;
     color: #EC6D4E;
     font-weight: bold;
     text-decoration: none;
@@ -45,7 +39,7 @@ p {
 
 /*-------- top start --------*/
 .top {
-    width: 920px;
+    width: 850px;
     margin: 0 auto;
     position: relative;
     margin-top: 30px;
@@ -59,6 +53,7 @@ p {
 }
 
 .top_banner {
+    width: 100%;
     margin-top: 10px;
     box-shadow: 0px 0px 0px 40px #ffdfa2;
 }
@@ -66,7 +61,7 @@ p {
 .top_deco {
     position: absolute;
     top: 343px;
-    left: 843px;
+    left: 763px;
 }
 
 /*-------- top end --------*/

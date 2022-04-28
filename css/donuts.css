@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
     color: #565656;
-    font-size: 18px;
+    font-size: 16px;
     min-width:1440px;
 }
 
@@ -19,7 +19,7 @@ p{
 
 /*--------------- button start ---------------*/
 .btn_o {
-    font-size: 18px;
+    font-size: 16px;
     color: #EC6D4E;
     font-weight: bold;
     text-decoration: none;
@@ -37,7 +37,7 @@ p{
 }
 
 .btn_w {
-    font-size: 18px;
+    font-size: 16px;
     color: #FAFAFA;
     font-weight: bold;
     text-decoration: none;
@@ -56,7 +56,7 @@ p{
 
 /*-------- top start --------*/
 .top {
-    width: 920px;
+    width: 850px;
     margin: 0 auto;
     position: relative;
     margin-top: 30px;
@@ -70,6 +70,7 @@ p{
 }
 
 .top_banner {
+    width: 100%;
     margin-top: 10px;
     box-shadow: 0px 0px 0px 40px #ffdfa2;
 }
@@ -77,7 +78,7 @@ p{
 .top_deco {
     position: absolute;
     top: 343px;
-    left: 843px;
+    left: 763px;
 }
 /*-------- top end --------*/
 
@@ -88,7 +89,7 @@ p{
 }
 
 .donuts_list {
-    width: 850px;
+    width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -112,7 +113,7 @@ p{
 }
 
 .donuts_list h5 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
@@ -122,7 +123,7 @@ p{
 
 /*-------- donuts start --------*/
 .donuts_items {
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 50px;
@@ -144,8 +145,8 @@ p{
 }
 
 .donuts_container{
-    width: 250px;
-    height: 220px;
+    width: 230px;
+    height: 200px;
     background-image: url('../image/donuts/d_bg.png');
     background-repeat: no-repeat;
     background-position: top right;
@@ -162,19 +163,18 @@ align-items: flex-end;
 }
 
 .donuts_items h5 {
-    margin-top: 10px;
-    font-size: 24px;
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .donuts_items h4 {
-    font-size: 30px;
+    font-size: 24px;
 }
 /*-------- donuts end --------*/
 /*-------- event start --------*/
 .event{
     background-image:url(../image/top_dotted_bg.png)
-    
 }
 
 /*--------------- dialog start ---------------*/
@@ -198,7 +198,7 @@ align-items: flex-end;
 }
 
 .dialog_text span{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -212,7 +212,7 @@ align-items: flex-end;
 
 .libre {
     margin: 10px 0 40px;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 35px;
     font-family: 'Libre Baskerville';
     font-weight: bold;
@@ -234,7 +234,7 @@ align-items: flex-end;
 }
 /*--------------- dialog end ---------------*/
 .event_container{
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
     padding-bottom: 80px;
     padding-top: 60px;
@@ -243,7 +243,7 @@ align-items: flex-end;
 }
 
 .event_gift{
-    width: 566px;
+    width: 400px;
     position: relative;
     margin: 0 auto;
 }
@@ -253,25 +253,25 @@ align-items: flex-end;
     letter-spacing: -3px;
     position: absolute;
     color: #EC6D4E;
-    font-size: 100px;
+    font-size: 80px;
     white-space: nowrap;
     transform: rotate(-8.47deg);
     top: 26px;
-    left: 165px;
+    left: 35px;
     z-index: 2;
 }
 
 .donutsbox{
     position: absolute;
     top: 137px;
-    left: 116px;
+    left: 37px;
     z-index: 1;
 }
 
 .giftcup{
     position: absolute;
     top: 162px;
-    left: 0px;
+    left: -47px;
 }
 /*-------- event end --------*/
 /*--------------- main end ---------------*/

@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
-    font-size: 18px;
+    font-size: 16px;
     min-width:1440px;
 }
 
@@ -17,14 +17,9 @@ p {
     font-weight: 500;
 }
 
-.footer_item_main {
-    border-bottom: #FAFAFA 5px solid;
-    padding-bottom: 5px;
-}
-
 /*-------- top start --------*/
 .top {
-    width: 920px;
+    width: 850px;
     margin: 0 auto;
     position: relative;
     margin-top: 30px;
@@ -38,6 +33,7 @@ p {
 }
 
 .top_banner {
+    width: 100%;
     margin-top: 10px;
     box-shadow: 0px 0px 0px 40px #ffdfa2;
 }
@@ -45,7 +41,7 @@ p {
 .top_deco {
     position: absolute;
     top: 343px;
-    left: 843px;
+    left: 763px;
 }
 /*-------- top end --------*/
 
@@ -56,7 +52,7 @@ p {
 }
 
 .faqs_container {
-    max-width: 1000px;
+    max-width: 850px;
     margin: 0 auto;
     padding-top: 140px;
     padding-bottom: 100px;
@@ -94,7 +90,7 @@ p {
     height: 4px;
     background-color: #FAFAFA;
     top:15px;
-    right: -922px;
+    right: -777px;
 }
 
 .faqs_title::after {
@@ -105,8 +101,7 @@ p {
     transform: rotate(90deg);
     background-color: #FAFAFA;
     top:15px;
-    right: -922px;
-    display: block;
+    right: -777px;
 }
 
 .ans_container {

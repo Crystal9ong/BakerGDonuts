@@ -1,7 +1,9 @@
-var change = document.querySelector(".faqs_title");
-var afterStyle = window.getComputedStyle(change, "::after");
-console.log(change);
+const change = document.querySelector(".faqs_title");
 
-// questoinBox.addEventListener("click",function(){
+const afterStyle = window.getComputedStyle(change, ":after");
 
-// })
+const questionBox = document.querySelector(".q_container");
+
+questionBox.addEventListener("click",function(){
+
+})
