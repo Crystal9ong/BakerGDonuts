@@ -102,11 +102,21 @@ p {
     background-color: #FAFAFA;
     top:15px;
     right: -777px;
+
+    transition: all .5s;
+}
+
+.faqs_title_open::after {
+    transform: rotate(180deg);
 }
 
 .ans_container {
     padding: 1em 2em 1em 2em;
     background-color: #FEF4E2;
+    display: none;
+}
+
+.ans_container_open {
     display: block;
 }
 

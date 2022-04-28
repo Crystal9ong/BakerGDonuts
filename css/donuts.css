@@ -3,17 +3,17 @@
 body {
     background-color: #FFF3DC;
     line-height: 1.6;
-    font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
+    font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 16px;
-    min-width:1440px;
+    min-width: 1440px;
 }
 
 img {
     display: block;
 }
 
-p{
+p {
     font-weight: 500;
 }
 
@@ -52,6 +52,7 @@ p{
     background-color: #FAFAFA;
 
 }
+
 /*--------------- button end ---------------*/
 
 /*-------- top start --------*/
@@ -80,6 +81,7 @@ p{
     top: 343px;
     left: 763px;
 }
+
 /*-------- top end --------*/
 
 /*-------- donuts list start --------*/
@@ -129,29 +131,30 @@ p{
     padding-bottom: 50px;
 }
 
-.donuts_items ul{
-    display: flex; 
-    justify-content: space-between;  
-    flex-wrap: wrap; 
+.donuts_items ul {
+    display: flex;
+    /* justify-content: space-between;   */
+    flex-wrap: wrap;
 }
 
-.donuts_items a{
+.donuts_items a {
     text-decoration: none;
-    color:#565656
+    color: #565656
 }
 
-.donuts_items li{
+.donuts_items li {
     margin-bottom: 40px;
 }
 
-.donuts_container{
+.donuts_container {
+    margin: 0 20px;
     width: 230px;
     height: 200px;
     background-image: url('../image/donuts/d_bg.png');
     background-repeat: no-repeat;
     background-position: top right;
-display: flex;
-align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
 }
 
 .donuts_item {
@@ -171,10 +174,11 @@ align-items: flex-end;
 .donuts_items h4 {
     font-size: 24px;
 }
+
 /*-------- donuts end --------*/
 /*-------- event start --------*/
-.event{
-    background-image:url(../image/top_dotted_bg.png)
+.event {
+    background-image: url(../image/top_dotted_bg.png)
 }
 
 /*--------------- dialog start ---------------*/
@@ -197,7 +201,7 @@ align-items: flex-end;
     vertical-align: baseline;
 }
 
-.dialog_text span{
+.dialog_text span {
     font-size: 18px;
     font-weight: bold;
 }
@@ -232,8 +236,9 @@ align-items: flex-end;
     top: 96px;
     left: 130px;
 }
+
 /*--------------- dialog end ---------------*/
-.event_container{
+.event_container {
     width: 1080px;
     margin: 0 auto;
     padding-bottom: 80px;
@@ -242,13 +247,13 @@ align-items: flex-end;
     display: flex;
 }
 
-.event_gift{
+.event_gift {
     width: 400px;
     position: relative;
     margin: 0 auto;
 }
 
-.event_gift span{
+.event_gift span {
     font-family: 'Caveat';
     letter-spacing: -3px;
     position: absolute;
@@ -261,17 +266,18 @@ align-items: flex-end;
     z-index: 2;
 }
 
-.donutsbox{
+.donutsbox {
     position: absolute;
     top: 137px;
     left: 37px;
     z-index: 1;
 }
 
-.giftcup{
+.giftcup {
     position: absolute;
     top: 162px;
     left: -47px;
 }
+
 /*-------- event end --------*/
 /*--------------- main end ---------------*/
