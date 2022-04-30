@@ -1,4 +1,13 @@
-//----------------comments slider----------------//
+//---------------- popup banner ----------------//
+const popCancelBtn = document.querySelector('.cancel');
+const popup = document.querySelector('.form-popup');
+
+popCancelBtn.addEventListener('click', () =>{
+    popup.classList.toggle("form-popup-close");
+})
+
+
+//---------------- comments slider ----------------//
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselItems = document.querySelectorAll('.comments_item');
 
@@ -38,7 +47,7 @@ carouselSlide.addEventListener('transitionend',() => {
 });
 
 
-//----------------top slider----------------//
+//---------------- top slider ----------------//
 
 var slider = document.querySelectorAll(".slider_item")
 

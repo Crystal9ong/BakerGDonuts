@@ -3,17 +3,17 @@
 body {
     background-color: #FFDFA2;
     line-height: 1.6;
-    font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
+    font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 16px;
-    min-width:1440px;
+    min-width: 1440px;
 }
 
 img {
     display: block;
 }
 
-p{
+p {
     font-weight: 500;
 }
 
@@ -50,10 +50,11 @@ p{
     border: #FAFAFA 2px solid;
     background-color: #FAFAFA;
 }
+
 /*--------------- button end ---------------*/
 
 /*--------------- popup bn start ---------------*/
-.form-popup{
+.form-popup {
     position: absolute;
     width: 320px;
     height: 420px;
@@ -69,46 +70,55 @@ p{
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.20);
 }
 
-.popup{
+.form-popup-close{
+    display: none;
+}
+
+.popup {
     padding: 20px;
     background: #565656;
 }
 
-.popuplogo{
+.popuplogo {
     width: 35%;
 }
 
-.cancel{
+.cancel {
     position: absolute;
-    top:30px;
+    top: 30px;
     right: 30px;
 }
 
-.cancel_img{
+.cancel_img {
     width: 70%;
+    cursor: pointer;
 }
 
-.form-popup .akshar{
+.cancel_img:hover{
+    transform: scale(1.15);
+}
+
+.form-popup .akshar {
     font-size: 22px;
 }
 
-.form-popup img{
+.form-popup img {
     margin: 0 auto;
 }
 
-.form-popup h3{
+.form-popup h3 {
     font-size: 24px;
     margin: 10px 0;
 }
 
-.form-popup span{
+.form-popup span {
     font-size: 18px;
     line-height: 20px;
     color: #FFCF75;
     font-weight: bold;
 }
 
-.pop_email{
+.pop_email {
     /* outline: blue 2px solid; */
     padding-top: 10px;
     padding-bottom: 40px;
@@ -116,7 +126,7 @@ p{
     text-align: left;
 }
 
-.form-popup h4{
+.form-popup h4 {
     font-size: 14px;
     color: #FAFAFA;
     font-weight: 600;
@@ -124,7 +134,7 @@ p{
     margin-top: 10px;
 }
 
-.pop_email input{
+.pop_email input {
     background-color: #BCBCBC;
     border: none;
     padding: 10px 40px 10px 5px;
@@ -132,25 +142,26 @@ p{
     margin: 5px 0;
 }
 
-.pop_email input:focus{
+.pop_email input:focus {
     background-color: #FFCF75;
-outline: none;
+    outline: none;
 }
 
-.pop_email label{
+.pop_email label {
     color: #FAFAFA;
     font-size: 12px;
 }
 
-#popbox{
+#popbox {
     width: 14px;
     height: 14px;
 }
 
-.form-popup .btn_w{
+.form-popup .btn_w {
     font-size: 14px;
     padding: 6px 50px;
 }
+
 /*--------------- popup bn end ---------------*/
 
 /*--------------- social start ---------------*/
@@ -190,7 +201,7 @@ outline: none;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top:-20px;
+    margin-top: -20px;
 }
 
 .social svg {
@@ -200,6 +211,7 @@ outline: none;
 .social svg:hover {
     transform: scale(1.2);
 }
+
 /*--------------- social end ---------------*/
 
 /*--------------- top start ---------------*/
@@ -236,7 +248,7 @@ outline: none;
     left: 155px;
 }
 
-.flag h5{
+.flag h5 {
     font-weight: bold;
 }
 
@@ -287,19 +299,20 @@ outline: none;
 }
 
 /*--------------- slider start ---------------*/
-.slider{
+.slider {
     position: relative;
 }
 
-.slider_item{
+.slider_item {
     display: block;
 }
 
-#slider_01{
-    position:;
+#slider_01 {
+    position: ;
 }
 
-#slider_02, #slider_03{
+#slider_02,
+#slider_03 {
     position: absolute;
     top: 0px;
     opacity: 0;
@@ -387,9 +400,9 @@ outline: none;
     margin: 0 auto;
 }
 
-.dialog .dotted_bg{
+.dialog .dotted_bg {
     position: absolute;
-    top:654px;
+    top: 654px;
     left: -455px;
     z-index: -1;
 }
@@ -427,6 +440,7 @@ outline: none;
     left: -30px;
     z-index: -1;
 }
+
 /*--------------- dialog start ---------------*/
 .dialog {
     width: 510px;
@@ -448,7 +462,7 @@ outline: none;
     vertical-align: baseline;
 }
 
-.dialog_text span{
+.dialog_text span {
     font-size: 20px;
     font-weight: bold;
 }
@@ -483,6 +497,7 @@ outline: none;
     top: 133px;
     left: 130px;
 }
+
 /*--------------- dialog end ---------------*/
 /*--------------- feature end ---------------*/
 
@@ -549,6 +564,7 @@ outline: none;
     top: 90px;
     left: 375px;
     transform: rotate(11.32deg);
+    transition: .1s step-end;
     z-index: 2;
 }
 
@@ -557,6 +573,7 @@ outline: none;
     top: -6px;
     left: 188px;
     transform: rotate(-11.84deg);
+    transition: .1s step-end;
     z-index: 1;
 }
 
@@ -565,6 +582,7 @@ outline: none;
     top: 89px;
     left: 25px;
     transform: rotate(-8.68deg);
+    transition: .1s step-end;
 }
 
 .story_01:hover {
@@ -681,19 +699,27 @@ outline: none;
     /* justify-content: space-between; */
     align-items: center;
     overflow: hidden;
-    
+
 }
 
-#prevBtn{
+#prevBtn {
     position: absolute;
-    top:52%;
+    top: 52%;
     left: 0px;
+    cursor: pointer;
 }
 
-#nextBtn{
+#nextBtn {
     position: absolute;
-    top:52%;
+    top: 52%;
     right: 0px;
+    cursor: pointer;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+    filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.15));
+
 }
 
 .carousel-slide {
@@ -712,7 +738,7 @@ outline: none;
     /* margin: 0 auto; */
 }
 
-.comments_item:nth-of-type(2n){
+.comments_item:nth-of-type(2n) {
     background-image: url(../image/comments_03.png);
 }
 
@@ -732,8 +758,8 @@ outline: none;
     margin-bottom: 20px;
 }
 
-.stars img{
-    width:20px;
+.stars img {
+    width: 20px;
 }
 
 .stars {
@@ -742,45 +768,68 @@ outline: none;
     margin: 0 auto;
     margin-bottom: 25px;
 }
+
 /*--------------- comments slider end ---------------*/
 
 /*--------------- ig start ---------------*/
-.followig{
-    width: 1440px;
+.followig {
+    width: 1080px;
     margin: 0 auto;
 }
 
-.followig .akshar{
+.followig .akshar {
     text-align: center;
 }
 
-.followig ul{
-    display: flex;
+.follow_slider {
+    margin: auto;
+    position: relative;
+    width: 100%;
     overflow: hidden;
-    margin-top: 40px;
 }
 
-.followig li{
+.follow_slidertrack {
+    display: flex;
+    margin-top: 40px;
+    width: calc(279px * 8);
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }100%{
+        transform: translateX(calc(-279px * 4));
+    }
+}
+
+.follow_item {
     box-sizing: border-box;
     margin-right: 20px;
-    flex-shrink: 0;
+    cursor: pointer;
+
 }
 
-.followig li img{
+.follow_item img {
     border-radius: 10px;
-     overflow: hidden;
 }
 
-.ig_icon{
-margin-top: 30px;
-margin-left: 30px;
-    position:absolute;
+.follow_item:hover {
+    transform: scale(1.05);
+    transition: .5s ease-in;
+}
+
+.ig_icon {
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
     overflow: hidden;
 }
+
 /*--------------- ig end ---------------*/
 
 /*--------------- shop start ---------------*/
-.shop{
+.shop {
     width: 1080px;
     margin: 0 auto;
     margin-top: 100px;
@@ -788,17 +837,19 @@ margin-left: 30px;
     position: relative;
 }
 
-.rotated_text{
+.rotated_text {
     position: absolute;
-    top:44px;
+    top: 44px;
     right: -122px;
     z-index: 2;
-    animation: rotate 10s linear infinite;
+    animation: rotate 15s linear infinite;
 }
 
 @keyframes rotate {
-    100% {transform: rotate(360deg);}
-  }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 /*--------------- dialog start ---------------*/
 .dialog_shop {
@@ -821,7 +872,7 @@ margin-left: 30px;
     vertical-align: baseline;
 }
 
-.dialog_text_shop h2{
+.dialog_text_shop h2 {
     font-size: 28px;
     font-weight: bold;
 }
@@ -831,8 +882,9 @@ margin-left: 30px;
     margin-bottom: 30px;
 }
 
-.dialog_text_shop span{
+.dialog_text_shop span {
     font-weight: bold;
 }
+
 /*--------------- dialog end ---------------*/
 /*--------------- shop end ---------------*/
