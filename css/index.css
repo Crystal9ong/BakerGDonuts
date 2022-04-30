@@ -673,6 +673,7 @@ outline: none;
 }
 
 .carousel-container {
+    /* border: 2px solid black; */
     width: 92%;
     margin: 0 auto;
     margin-top: 40px;
@@ -685,13 +686,13 @@ outline: none;
 
 #prevBtn{
     position: absolute;
-    top:50%;
+    top:52%;
     left: 0px;
 }
 
 #nextBtn{
     position: absolute;
-    top:50%;
+    top:52%;
     right: 0px;
 }
 
