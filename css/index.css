@@ -59,8 +59,8 @@ p {
     height: 420px;
     background: linear-gradient(142.51deg, #EC6D4E, #FEC872, #EC6D4E);
     padding: 10px;
-    right: 0;
     position: fixed;
+    right: 0;
     top: 0px;
     bottom: 0px;
     margin: auto;
@@ -156,35 +156,52 @@ p {
     height: 14px;
 }
 
-.form-popup .btn_w {
-    font-size: 14px;
+.popup_btn_w {
+    font-size: 16px;
+    color: #FAFAFA;
+    font-weight: bold;
+    text-decoration: none;
+    border: #FAFAFA 2px solid;
+    border-radius: 50px;
     padding: 6px 50px;
+    font-size: 14px;
 }
 
+.popup_btn_w:hover {
+    color: #EC6D4E;
+    border: #FAFAFA 2px solid;
+    background-color: #FAFAFA;
+}
 /*--------------- popup bn end ---------------*/
 
 /*--------------- popup result start ---------------*/
-.popup-result-mask {
+
+.popup-result {
+    position: fixed;
     top: 0;
     z-index: 3;
-    position: fixed;
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.popup-result_open{
+    display: block;
+}
+
+.popup-result_close{
+    display: none;
 }
 
 .popup-result-container {
-    right: 50%;
-    left: 50%;
-    top: 50%;
-    bottom: 50%;
+   position: relative;
 }
 
 .popup-result-text {
     z-index: 1;
     text-align: center;
-    outline: 2px solid pink;
-    padding: 57px 75px;
+    padding: 78px 114px;
     position: absolute;
 }
 
@@ -192,19 +209,19 @@ p {
     font-family: 'Caveat';
     letter-spacing: -3px;
     color: #FFCF75;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .popup-result-text h4 {
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     color: #FAFAFA;
 }
 
 .popup-result-text h5 {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #FAFAFA;
 }
 
@@ -232,18 +249,17 @@ p {
     left: 346px;
 }
 
-.popup-result-cancel {
+.popup-result-cancel{
     position: absolute;
     top: 30px;
     left: 460px;
-    width: 70%;
     cursor: pointer;
+    z-index: 1;
 }
 
-.popup-result-cancel_img:hover {
+.popup-result-cancel:hover {
     transform: scale(1.15);
 }
-
 /*--------------- popup result end ---------------*/
 
 /*--------------- social start ---------------*/

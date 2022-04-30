@@ -20,7 +20,5 @@ for(let i=0; i< q_containers.length; i++){
         }
         faqs_titles[i].classList.toggle("faqs_title_open");
         ans_containers[i].classList.toggle("ans_container_open");
-
-    
     });
 }

@@ -1,11 +1,26 @@
 //---------------- popup banner ----------------//
+// popup banner cancel
 const popCancelBtn = document.querySelector('.cancel');
 const popup = document.querySelector('.form-popup');
 
 popCancelBtn.addEventListener('click', () =>{
     popup.classList.toggle("form-popup-close");
 })
+// popup banner send
+const popupSend = document.querySelector('.popup_btn_w');
+const popupResult = document.querySelector('.popup-result');
 
+popupSend.addEventListener('click', ()=>{
+    popup.classList.toggle("form-popup-close");
+    popupResult.classList.toggle("popup-result_open");
+})
+
+// popup result
+const mask = document.querySelector('.popup-result');
+
+mask.addEventListener('click', ()=>{
+    popupResult.classList.toggle("popup-result_close");
+})
 
 //---------------- comments slider ----------------//
 const carouselSlide = document.querySelector('.carousel-slide');
