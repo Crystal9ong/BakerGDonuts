@@ -663,37 +663,56 @@ outline: none;
     z-index: -1;
 }
 
+/*--------------- glory end ---------------*/
+/*--------------- comments slider start ---------------*/
 .comments {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: center;
+    position: relative;
 }
 
-.gloryslide ul {
+.carousel-container {
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 40px;
     display: flex;
-}
-
-.gloryslider {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
+    overflow: hidden;
+    
 }
 
-.comments ul {
+#prevBtn{
+    position: absolute;
+    top:50%;
+    left: 0px;
+}
+
+#nextBtn{
+    position: absolute;
+    top:50%;
+    right: 0px;
+}
+
+.carousel-slide {
     display: flex;
 }
 
 .comments_item {
     width: 240px;
-    display: inline-block;
-    text-align: center;
+    /* display: inline-block; */
+    /* text-align: center; */
     background-image: url(../image/comments_02.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 45px;
-    justify-content: space-around;
-    margin: 0 auto;
+    /* justify-content: space-around; */
+    /* margin: 0 auto; */
+}
+
+.comments_item:nth-of-type(2n){
+    background-image: url(../image/comments_03.png);
 }
 
 .comments_item span {
@@ -722,8 +741,7 @@ outline: none;
     margin: 0 auto;
     margin-bottom: 25px;
 }
-
-/*--------------- glory end ---------------*/
+/*--------------- comments slider end ---------------*/
 
 /*--------------- ig start ---------------*/
 .followig{

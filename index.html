@@ -89,7 +89,7 @@
         <!------------------ navbar end ------------------>
 
         <!------------------ popup bn start ------------------>
-        <section class="form-popup">
+        <!-- <section class="form-popup">
             <div class="popup">
                 <div><img class="popuplogo" src="./image/popup_logo.png" alt="popup logo"></div>
                 <div class="cancel"><img class="cancel_img" src="./image/cancel.png" alt=""></div>
@@ -105,7 +105,7 @@
                 </div>
                 <a class="btn_w" href="#">Send</a>
             </div>
-        </section>
+        </section> -->
         <!------------------ popup bn end ------------------>
 
         <!------------------ top start ------------------>
@@ -117,16 +117,6 @@
                     <span>gluten free!</span>
                 </div>
                 <div class="slider">
-                    <!-- The dots/circles start -->
-                    <div class="slider_dot">
-                        <ul>
-                            <li class="dot" onclick="currentSlide(1)"></span>
-                            <li class="dot" onclick="currentSlide(2)"></span>
-                            <li class="dot" onclick="currentSlide(3)"></span>
-                        </ul>
-                    </div>
-                    <!-- The dots/circles end -->
-
                     <div class="slider_item" id="slider_01">
                         <div class="donut_display">
                             <img src="./image/top_donut_01.png" alt="">
@@ -291,14 +281,14 @@
                     <span>— Emily Garner</span>
                     <span class="quote_bg"><img src="./image/quote.png" alt=""></span>
                 </div>
+                <!------------------ comments slider start ------------------>
                 <div class="comments">
                     <span class="akshar">COMMENTS FOR BAKER G.</span>
-                    <div class="gloryslider">
-                        <div>
-                            <img src="./image/comments_01.png" alt="">
-                        </div>
-                        <ul>
-                            <li class="comments_item">
+                    <img id="prevBtn" src="./image/comments_01.png" alt="">
+                    <img id="nextBtn" src="./image/comments_04.png" alt="">
+                    <div class="carousel-container">
+                        <ul class="carousel-slide">
+                            <li class="comments_item" id="lastClone">
                                 <div class="stars">
                                     <img src="./image/Star_full.png" alt="">
                                     <img src="./image/Star_full.png" alt="">
@@ -317,7 +307,7 @@
                                     <img src="./image/Star_full.png" alt="">
                                     <img src="./image/Star_full.png" alt="">
                                     <img src="./image/Star_full.png" alt="">
-                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_empty.png" alt="">
                                 </div>
                                 <h4>Very cute donuts store!</h4>
                                 <p>Love how they display the mini donuts! Not too sweet, a good comfort food to go
@@ -330,21 +320,54 @@
                                     <img src="./image/Star_full.png" alt="">
                                     <img src="./image/Star_full.png" alt="">
                                     <img src="./image/Star_full.png" alt="">
-                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_empty.png" alt="">
                                 </div>
                                 <h4>Handmade donuts!</h4>
                                 <p>Be sure to come earlier, the donuts might sold out earlier than the closed time.
                                 </p>
                                 <span>Adam Saleh | New Taipei</span>
                             </li>
+                            <li class="comments_item">
+                                <div class="stars">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                </div>
+                                <h4>Vegan Friendly!</h4>
+                                <p>Move over Krispy Kreme! Gosh such great donuts! High recommend!</p>
+                                <span>John Alwall | Taipei</span>
+                            </li>
+                            <li class="comments_item">
+                                <div class="stars">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_empty.png" alt="">
+                                    <img src="./image/Star_empty.png" alt="">
+                                </div>
+                                <h4>Extraordinarily good!</h4>
+                                <p>A popular spot being on the corner of a very busy street, but it's a little bit overpriced.</p>
+                                <span>Mira Ma | Tainan</span>
+                            </li>
+                            <li class="comments_item" id="firstClone">
+                                <div class="stars">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_full.png" alt="">
+                                    <img src="./image/Star_empty.png" alt="">
+                                </div>
+                                <h4>Great range of donuts!</h4>
+                                <p>Nicely displayed, staff are friendly and cheerful. Just love the peanut butter donuts.
+                                </p>
+                                <span>S Dixon | Kaohsiung</span>
+                            </li>
                         </ul>
-
-                        <div>
-                            <img src="./image/comments_04.png" alt="">
-                        </div>
-
                     </div>
                 </div>
+                <!------------------ comments slider end ------------------>
             </div>
         </section>
         <!------------------ glory end ------------------>
