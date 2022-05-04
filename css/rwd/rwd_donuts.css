@@ -1,0 +1,95 @@
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 48px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+    /*----- top end -----*/
+
+    /*----- donuts list start -----*/
+    .donuts_list {
+        width: 100%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_items ul {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_container {
+        /* width: 100%;
+        flex-shrink:0; */
+        margin: 0 20px;
+    }
+    /*----- donuts list end -----*/
+
+    /*----- event start -----*/
+    .event_container {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 580px;
+    }
+    /*- dialog start -*/
+    .dialog {
+        width: 100vw;
+        height: 600px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        top: 0px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+
+    .dialog_text {
+        width: 70vw;
+    }
+
+    .dialog_text h2:after {
+        display: none;
+    }
+    /*- dialog end -*/
+    /*----- event start -----*/
+}
+
+/*============= RWD 576-767.98 navbar end =============*/
+
+/*============= RWD 576 navbar start =============*/
+@media (max-width: 575.98px) {}
+
+/*============= RWD 576 navbar end =============*/

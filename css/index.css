@@ -6,7 +6,7 @@ body {
     font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 16px;
-    min-width: 1440px;
+    /* min-width: 1440px; */
 }
 
 img {
@@ -54,19 +54,30 @@ p {
 /*--------------- button end ---------------*/
 /*--------------- popup bn start ---------------*/
 .form-popup {
-    position: absolute;
+    /* position: absolute; */
     width: 320px;
     height: 420px;
     background: linear-gradient(142.51deg, #EC6D4E, #FEC872, #EC6D4E);
     padding: 10px;
     position: fixed;
     right: 0;
-    top: 0px;
+    top: -1300px;
     bottom: 0px;
     margin: auto;
     text-align: center;
     z-index: 3;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.20);
+    animation: popmove 1s ease-in forwards;
+}
+
+@keyframes popmove {
+    0% {
+        top: -1300px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
 
 .form-popup-close {
@@ -172,6 +183,7 @@ p {
     border: #FAFAFA 2px solid;
     background-color: #FAFAFA;
 }
+
 /*--------------- popup bn end ---------------*/
 
 /*--------------- popup result start ---------------*/
@@ -181,21 +193,31 @@ p {
     top: 0;
     z-index: 3;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 0;
     background: rgba(0, 0, 0, 0.7);
-    display: none;
+    /* display: none; */
+    overflow: hidden;
+    transition: all 1s;
 }
 
-.popup-result_open{
-    display: block;
+.popup-result_open {
+    /* display: block; */
+    height: 100vh;
 }
 
-.popup-result_close{
-    display: none;
+.popup-result_close {
+    /* display: none; */
+    height: 0;
 }
 
 .popup-result-container {
-   position: relative;
+    position: relative;
+    /* height: 526px; */
+    width: 526px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .popup-result-text {
@@ -249,7 +271,7 @@ p {
     left: 346px;
 }
 
-.popup-result-cancel{
+.popup-result-cancel {
     position: absolute;
     top: 30px;
     left: 460px;
@@ -260,6 +282,7 @@ p {
 .popup-result-cancel:hover {
     transform: scale(1.15);
 }
+
 /*--------------- popup result end ---------------*/
 
 /*--------------- social start ---------------*/
@@ -511,6 +534,10 @@ p {
     position: relative;
 }
 
+.choc-m {
+    display: none;
+}
+
 .choc span {
     font-family: 'Caveat';
     letter-spacing: -3px;
@@ -527,6 +554,10 @@ p {
 .cream {
     position: relative;
     margin: 100px 0 50px;
+}
+
+.cream-m {
+    display: none;
 }
 
 .cream_bg {
@@ -654,7 +685,6 @@ p {
     margin: 0 auto;
     align-items: center;
     display: table;
-
 }
 
 .story_01 {
@@ -789,12 +819,10 @@ p {
 }
 
 .carousel-container {
-    /* border: 2px solid black; */
     width: 92%;
     margin: 0 auto;
     margin-top: 40px;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     overflow: hidden;
 
@@ -890,7 +918,8 @@ p {
     display: flex;
     margin-top: 40px;
     width: calc(279px * 8);
-    animation: scroll 15s linear infinite;
+    animation: scroll 15s alternate linear infinite;
+    /* animation-direction:alternate; */
 }
 
 @keyframes scroll {

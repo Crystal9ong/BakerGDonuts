@@ -1,0 +1,41 @@
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    body{
+        min-width: 100%;
+    }
+
+    .hand_line{
+        display: none;
+    }
+
+    .story{
+        display: block;
+    }
+    
+    .emily{
+        width: 100%;
+    }
+
+    .emily img{
+        display: none;
+    }
+
+    .emily span{
+        display: none;
+    }
+
+    .quote{
+        display: none;
+    }
+
+    .bio{
+        width: 100%;
+    }
+}
+/*============= RWD 576-767.98 navbar end =============*/
+
+/*============= RWD 576 navbar start =============*/
+@media (max-width: 575.98px){
+    
+}
+/*============= RWD 576 navbar end =============*/

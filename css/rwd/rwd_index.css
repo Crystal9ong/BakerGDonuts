@@ -1,0 +1,579 @@
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+   /*----- aside start -----*/
+   .aside {
+    display: none;
+}
+
+/*----- aside end -----*/
+.form-popup {
+    display: none;
+}
+
+/*----- top start -----*/
+.top {
+    width: 100%;
+    flex-direction: column;
+    margin: 160px 0;
+    margin-bottom: -120px;
+}
+
+.text_container {
+    width: 100%;
+    margin: 0 0 60px 0;
+    order: 2;
+    margin: 0 auto;
+}
+
+.text_container h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 68px;
+    line-height: 100px;
+    margin: 0 auto;
+}
+
+.highlight_bg {
+    width: 597px;
+    top: 210px;
+    right: 78px;
+}
+
+.slider {
+    order: 1;
+}
+
+.donut_display {
+    margin-left: 0px;
+}
+
+.flag {
+    top: -448px;
+    left: 0px;
+}
+
+.dotted_bg img {
+    top: -220px;
+    left: 380px;
+}
+
+.text_container span {
+    font-size: 70px;
+    top: 118px;
+    left: 329px;
+    z-index: 0;
+}
+
+/*----- top end -----*/
+
+    /*----- news start -----*/
+    .news {
+        display: none;
+    }
+    /*----- news end -----*/
+
+    /*----- feature start -----*/
+    .feature {
+        width: 100%;
+        /* overflow: hidden; */
+    }
+
+    .cream, .choc{
+        display: none;
+    }
+
+    .choc-m {
+        margin-top: 150px;
+        display: block;
+    }
+
+    .cream-m{
+        display:block;
+        margin-top: 200px;
+    }
+
+    .choc-m img{
+        width: 100%;
+    }
+
+    .choc span {
+        top: -514px;
+        left: 330px;
+        z-index: 4;
+    }
+
+    /*----- feature end -----*/
+
+    /*----- dialog start -----*/
+    .dialog {
+        width: 100vw;
+        height: 600px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        top: 0px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+
+    .dialog_text {
+        width: 70vw;
+    }
+
+    .dialog_text h2:after{
+        display: none;
+    }
+
+    /*----- dialog end -----*/
+
+    /*----- how to buy start -----*/
+    .howtobuy {
+        z-index: 100;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .howtobuy ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+         
+    }
+
+    .howtobuy li {
+        width: 38%;
+    }
+
+    .howtobuy li:nth-child(3),
+    .howtobuy li:nth-child(4) {
+        padding-top: 10%;
+    }
+
+    /*----- how to buy end -----*/
+
+    /*----- story start -----*/
+    .story {
+        width: 100%;
+    }
+
+    .story_container{
+        width: 70vw;
+    }
+
+    .story_photo{
+        display: none;
+    }
+
+    .story_container img {
+        display: none;
+    }
+
+    .story_01 {
+        top: 55px;
+        left: 217px;
+    }
+
+    .story_02 {
+        top: -6px;
+        left: 45px;
+        z-index: 2;
+    }
+
+    .story_03 {
+        top: 41px;
+        left: -86px;
+        z-index: 1;
+    }
+
+    .story_01:hover {
+        top: 55px;
+        left: 217px;
+        z-index: 3;
+    }
+
+    .story_02:hover {
+        top: -6px;
+        left: 45px;
+    }
+
+    .story_03:hover {
+        top: 41px;
+        left: -86px;
+    }
+
+    .desc{
+        width: 70vw;
+        height: 600px;
+    }
+
+    .desc h2:after{
+        display: none;
+    }
+    /*----- story end -----*/
+
+   /*----- glory start -----*/
+   .glory{
+       width: 100%;
+   }
+
+   .slogan h1{
+    font-size: 30px;
+   }
+
+   #prevBtn{
+    left:30px;
+    z-index: 1;
+   }
+
+   #nextBtn {
+    top: 52%;
+    right: 30px;
+    z-index: 1;
+   }
+
+   .comments_item{
+    width: 200px;
+    margin: 0 auto;
+    padding: 60px 70px;
+   }
+
+   .quote_bg{
+    top: -11px;
+    left: 48px;
+   }
+   /*----- glory end -----*/
+
+   /*----- ig start -----*/
+   .followig{
+       width: 100%;
+   }
+
+   .followig .akshar{
+       margin-bottom: 40px;
+   }
+   /*----- ig end -----*/
+
+   /*----- shop start -----*/
+   .shop{
+    width:100%;
+    margin-bottom:482px;
+    /* display: flex; */
+   }
+
+   .shop img{
+       width: 100%;
+   }
+
+   .rotated_text{
+       display: none;
+   }
+
+   .dialog_shop{
+    width: 100%;
+    height: 400px;
+    background-color: #FAFAFA;
+    background-image: url('/image/top_dotted_bg.png');
+    background-repeat: repeat;
+    padding-top: 100px;
+    margin-top: 65%;
+    z-index: 3;
+    left: 0;
+    display: block;
+   }
+   /*----- shop end -----*/
+}
+/*============= RWD 576-767.98 navbar end =============*/
+
+/*============= RWD 576 navbar start =============*/
+@media (max-width: 575.98px){
+     /*----- aside start -----*/
+     .aside {
+        display: none;
+    }
+
+    /*----- aside end -----*/
+    .form-popup {
+        display: none;
+    }
+
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        flex-direction: column;
+        margin: 160px 0;
+        margin-bottom: -120px;
+    }
+
+    .text_container {
+        width: 100%;
+        margin: 0 0 60px 0;
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .text_container h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 58px;
+        line-height: 80px;
+        margin: 0 auto;
+    }
+
+    .highlight_bg {
+        width: 450px;
+        top: 159px;
+        right: 47px;
+    }
+
+    .slider {
+        order: 1;
+    }
+
+    .donut_display {
+        margin-left: 0px;
+    }
+
+    .flag {
+        top: -448px;
+        left: 0px;
+    }
+
+    .dotted_bg img {
+        top: -220px;
+        left: 380px;
+    }
+
+    .text_container span {
+        font-size: 60px;
+        top: 87px;
+        left: 329px;
+        z-index: 0;
+    }
+
+    /*----- top end -----*/
+
+    /*----- news start -----*/
+    .news {
+        display: none;
+    }
+    /*----- news end -----*/
+
+    /*----- feature start -----*/
+    .feature {
+        width: 100%;
+        /* overflow: hidden; */
+    }
+
+    .cream, .choc{
+        display: none;
+    }
+
+    .choc-m {
+        margin-top: 150px;
+        display: block;
+    }
+
+    .cream-m{
+        display:block;
+        margin-top: 200px;
+    }
+
+    .choc-m img{
+        width: 100%;
+    }
+
+    .choc span {
+        top: -514px;
+        left: 330px;
+        z-index: 4;
+    }
+
+    /*----- feature end -----*/
+
+    /*----- dialog start -----*/
+    .dialog {
+        width: 100vw;
+        height: 600px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        top: 0px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+
+    .dialog_text {
+        width: 70vw;
+    }
+
+    .dialog_text h2:after{
+        display: none;
+    }
+
+    /*----- dialog end -----*/
+
+    /*----- how to buy start -----*/
+    .howtobuy {
+        z-index: 100;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .howtobuy ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+         
+    }
+
+    .howtobuy li {
+        width: 38%;
+    }
+
+    .howtobuy li:nth-child(3),
+    .howtobuy li:nth-child(4) {
+        padding-top: 10%;
+    }
+
+    /*----- how to buy end -----*/
+
+    /*----- story start -----*/
+    .story {
+        width: 100%;
+    }
+
+    .story_container{
+        width: 70vw;
+    }
+
+    .story_photo{
+        display: none;
+    }
+
+    .story_container img {
+        display: none;
+    }
+
+    .story_01 {
+        top: 55px;
+        left: 217px;
+    }
+
+    .story_02 {
+        top: -6px;
+        left: 45px;
+        z-index: 2;
+    }
+
+    .story_03 {
+        top: 41px;
+        left: -86px;
+        z-index: 1;
+    }
+
+    .story_01:hover {
+        top: 55px;
+        left: 217px;
+        z-index: 3;
+    }
+
+    .story_02:hover {
+        top: -6px;
+        left: 45px;
+    }
+
+    .story_03:hover {
+        top: 41px;
+        left: -86px;
+    }
+
+    .desc{
+        width: 70vw;
+        height: 600px;
+    }
+
+    .desc h2:after{
+        display: none;
+    }
+    /*----- story end -----*/
+
+   /*----- glory start -----*/
+   .glory{
+       width: 100%;
+   }
+
+   .slogan h1{
+    font-size: 30px;
+   }
+
+   #prevBtn{
+    left:30px;
+    z-index: 1;
+   }
+
+   #nextBtn {
+    top: 52%;
+    right: 30px;
+    z-index: 1;
+   }
+
+   .comments_item{
+    width: 250px;
+    margin: 0 auto;
+    padding: 60px 80px;
+   }
+
+   .quote_bg{
+    top: -11px;
+    left: 48px;
+   }
+   /*----- glory end -----*/
+
+   /*----- ig start -----*/
+   .followig{
+       width: 100%;
+   }
+
+   .followig .akshar{
+       margin-bottom: 40px;
+   }
+   /*----- ig end -----*/
+
+   /*----- shop start -----*/
+   .shop{
+    width:100%;
+    margin-bottom:482px;
+    /* display: flex; */
+   }
+
+   .shop img{
+       width: 100%;
+   }
+
+   .rotated_text{
+       display: none;
+   }
+
+   .dialog_shop{
+    width: 100%;
+    height: 400px;
+    background-color: #FAFAFA;
+    background-image: url('/image/top_dotted_bg.png');
+    background-repeat: repeat;
+    padding-top: 100px;
+    margin-top: 65%;
+    z-index: 3;
+    left: 0;
+    display: block;
+   }
+   /*----- shop end -----*/
+  }
+  /*============= RWD 576 navbar start =============*/
+  @media (max-width: 575.98px){
+  .comments_item{
+    width: 200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+   }
+}
