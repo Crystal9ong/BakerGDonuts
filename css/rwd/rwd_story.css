@@ -188,6 +188,10 @@
 /*============= RWD 576-767.98 navbar start =============*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    .logo_animation{
+        display: none;
+    }
+
     .hand_line {
         width: 45%;
     }
@@ -307,6 +311,10 @@
 
 /*============= RWD 414-575.98 start =============*/
 @media (min-width: 414px) and (max-width:575.98px) {
+    .logo_animation{
+        display: none;
+    }
+
     .bio .quote {
         display: none;
     }
@@ -436,6 +444,10 @@
 
 /*============= RWD 413.98 start =============*/
 @media (max-width:413.98px) {
+    .logo_animation{
+        display: none;
+    }
+
     .bio .quote {
         display: none;
     }

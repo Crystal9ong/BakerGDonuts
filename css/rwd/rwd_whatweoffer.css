@@ -470,14 +470,14 @@
     .side_line_01 {
         border-top: 5px dotted #565656;
         width: 133px;
-        right: 0%;
+        right: 2%;
         top: 33%;
     }
 
     .side_title_01 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
-        right: -0%;
+        right: 4%;
         top: 32%;
     }
 
@@ -485,11 +485,11 @@
         border-top: 5px dotted #565656;
         width: 186px;
         right: 23%;
-        top:54%;
+        top:55%;
     }
 
     .side_title_02 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 22px;
         right: 39%;
         top: 57%;
