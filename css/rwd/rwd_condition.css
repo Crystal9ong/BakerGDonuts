@@ -1,3 +1,66 @@
+/*============= RWD 992-1199.98 start =============*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .top_deco{
+        display: none;
+    }
+
+    .top_banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .top_title{
+        font-size: 58px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .Teams ul{
+        width:80%;
+    }
+
+    .Teams li{
+        width: 45%;
+    }
+}
+
+/*============= RWD 768-991.98 start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .top_title {
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+    
+    .top_banner_container {
+        width: 100%;
+    }
+    
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+    
+    .top_deco {
+        display: none;
+    }
+
+    .Teams ul{
+        width:90%;
+    }
+
+    .Teams li{
+        width: 45%;
+    }
+}
+
 /*============= RWD 576-767.98 navbar start =============*/
 @media (min-width: 576px) and (max-width: 767.98px){
 /*----- top start -----*/
@@ -7,7 +70,7 @@
 }
 
 .top_title {
-    font-size: 42px;
+    font-size: 38px;
     width: 100%;
     text-align: center;
     align-items: center;
@@ -55,10 +118,9 @@
 
 /*----- teams end -----*/
 }
-/*============= RWD 576-767.98 navbar end =============*/
 
-/*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px){
+/*============= RWD 414-575.98 start =============*/
+@media (min-width: 414px) and (max-width:575.98px){
     .top {
         width: 100%;
         margin-top: 100px;
@@ -111,4 +173,61 @@
         margin-bottom: 50px;
     }
 }
-/*============= RWD 576 navbar end =============*/
+/*============= RWD 413.98 start =============*/
+@media (max-width: 413.98px) {
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .top_title {
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+    
+    .top_banner_container {
+        width: 100%;
+    }
+    
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+    
+    .top_deco {
+        display: none;
+    }
+    /*----- top end -----*/
+    
+    /*----- teams start -----*/
+    .Teams ul{
+        width: 100%;
+        justify-content:center;
+    }
+    
+    .Teams li {
+        width:70%;
+    }
+    
+    .Teams h4{
+        font-size: 20px;
+    }
+
+    .Teams p{
+        font-size: 16px;
+    }
+    
+    .Teams li:nth-child(3),
+    .Teams li:nth-child(4) {
+        margin-top: 0px;
+    }
+    
+    .Teams li:nth-child(1),
+    .Teams li:nth-child(2),
+    .Teams li:nth-child(3){
+        margin-bottom: 50px;
+    }
+}

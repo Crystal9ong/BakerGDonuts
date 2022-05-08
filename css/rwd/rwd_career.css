@@ -1,16 +1,46 @@
-/*============= RWD 576-767.98 navbar start =============*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-    
-        /*----- button start -----*/
-.btn_o{
-    font-size: 20px;
-    padding: 8px 70px;
+/*============= RWD 992-1199.98 start =============*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .top_deco{
+        display: none;
+    }
+
+    .top_banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .top_title{
+        font-size: 58px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+     /*----- form start -----*/
+     .form {
+        width: 65%;
+        display: block;
+    }
+
+    .form_photo {
+        display: none;
+    }
+
+    .form_input {
+        width: 70%;
+        display: contents;
+    }
+    /*----- form end -----*/
 }
 
-.btn_w{
-    font-size: 20px;
-    padding:  8px 70px;
+/*============= RWD 768-991.98 start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+ /*----- button start -----*/
+ .btn_o{
+    font-size: 18px;
+    padding: 6px 60px;
 }
+
 /*----- button end -----*/
     .akshar{
         font-size: 24px;
@@ -65,13 +95,22 @@
     /*----- form end -----*/
 }
 
-/*============= RWD 576-767.98 navbar end =============*/
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+        /*----- button start -----*/
+.btn_o{
+    font-size: 18px;
+    padding: 6px 60px;
+}
 
-/*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px) {
-    .btn_o{
-        font-size: 22px;
-        padding: 8px 70px;
+/*----- button end -----*/
+    .akshar{
+        font-size: 24px;
+    }
+
+    .libre{
+        font-size: 30px;  
     }
     /*----- top start -----*/
     .top {
@@ -80,7 +119,7 @@
     }
 
     .top_title {
-        font-size: 42px;
+        font-size: 38px;
         width: 100%;
         text-align: center;
         align-items: center;
@@ -119,4 +158,114 @@
     /*----- form end -----*/
 }
 
-/*============= RWD 576 navbar end =============*/
+/*============= RWD 414-575.98 start =============*/
+@media (min-width: 414px) and (max-width:575.98px){
+    .btn_o{
+        font-size: 18px;
+        padding: 6px 50px;
+    }
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- form start -----*/
+    .form {
+        width: 80%;
+        display: block;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .form_photo {
+        display: none;
+    }
+
+    .form_input {
+        width: 70%;
+        display: contents;
+    }
+    /*----- form end -----*/
+}
+
+/*============= RWD 413.98 start =============*/
+@media (max-width: 413.98px) {
+    .btn_o{
+        font-size: 16px;
+        padding: 4px 40px;
+    }
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- form start -----*/
+    .form {
+        width: 80%;
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .form_photo {
+        display: none;
+    }
+
+    .form_input {
+        width: 70%;
+        display: contents;
+    }
+    /*----- form end -----*/
+
+    .form_input h5{
+        font-size: 16px;
+    }
+}

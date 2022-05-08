@@ -1,3 +1,83 @@
+/*============= RWD 992-1199.98 start =============*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .top_deco{
+        display: none;
+    }
+
+    .top_banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .top_title{
+        font-size: 58px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .faqs_container {
+        width: 80%;
+    }
+
+    .faqs_title h3{
+        font-size: 16px;
+    }
+
+    .faqs_title::before{
+        display: none;
+    }
+
+    .faqs_title::after{
+        display: none;
+    }
+}
+
+/*============= RWD 768-991.98 start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   /*----- top start -----*/
+   .top {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.top_title {
+    font-size: 42px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* margin-left: 60px; */
+}
+
+.top_banner_container {
+    width: 100%;
+}
+
+.top_banner {
+    width: 100%;
+    box-shadow: none;
+}
+
+.top_deco {
+    display: none;
+}
+
+    .faqs_container {
+        width: 80%;
+    }
+
+    .faqs_title h3{
+        font-size: 14px;
+    }
+
+    .faqs_title::before{
+        display: none;
+    }
+
+    .faqs_title::after{
+        display: none;
+    }
+}
+
 /*============= RWD 576-767.98 navbar start =============*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -8,7 +88,7 @@
     }
 
     .top_title {
-        font-size: 42px;
+        font-size: 38px;
         width: 100%;
         text-align: center;
         align-items: center;
@@ -47,10 +127,8 @@
     /*----- faqs end -----*/
 }
 
-/*============= RWD 576-767.98 navbar end =============*/
-
-/*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px) {
+/*============= RWD 414-575.98 start =============*/
+@media (min-width: 414px) and (max-width:575.98px){
     /*----- top start -----*/
     .top {
         width: 100%;
@@ -58,7 +136,7 @@
     }
 
     .top_title {
-        font-size: 42px;
+        font-size: 28px;
         width: 100%;
         text-align: center;
         align-items: center;
@@ -97,4 +175,58 @@
     /*----- faqs end -----*/
 }
 
-/*============= RWD 576 navbar end =============*/
+/*============= RWD 413.98 start =============*/
+@media (max-width: 413.98px) {
+/*----- top start -----*/
+.top {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.top_title {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* margin-left: 60px; */
+}
+
+.top_banner_container {
+    width: 100%;
+}
+
+.top_banner {
+    width: 100%;
+    box-shadow: none;
+}
+
+.top_deco {
+    display: none;
+}
+/*----- top end -----*/
+/*----- faqs start -----*/
+.faqs_container {
+    width: 80%;
+}
+
+.faqs_title h3{
+    font-size: 16px;
+}
+
+.faqs_title::before{
+    display: none;
+}
+
+.faqs_title::after {
+    display: none;
+}
+
+.faqs_title h3{
+    font-size:16px;  
+}
+
+.faqs_container span{
+    font-size:16px;  
+}
+/*----- faqs end -----*/
+}

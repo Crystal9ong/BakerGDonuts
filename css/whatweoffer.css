@@ -197,12 +197,15 @@ p {
     width: 960px;
     margin-top: 250px;
     margin-bottom: 100px;
+    
+    
 }
 
 .ingredients ul {
     display: flex;
     justify-content: space-around;
     box-shadow: #565656;
+    
 }
 
 .ingredients li {
