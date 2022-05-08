@@ -1,6 +1,13 @@
 /*============= RWD 992-1199.98 start =============*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+    .logo_animation{
+        width:50%;
+        position:absolute;
+        top:425px;
+        right: -565px;
+    }
+    
     .hand_line {
         width: 30%;
     }
@@ -52,6 +59,8 @@
     .process img {
         margin-top: 90px;
     }
+
+    
 
 }
 

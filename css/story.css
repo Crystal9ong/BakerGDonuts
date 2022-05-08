@@ -75,6 +75,10 @@ p {
     margin-bottom: 30px;
 }
 
+.emily{
+    position:relative;
+}
+
 .emily_shadow {
     width: 350px;
     height: 260px;
@@ -83,6 +87,13 @@ p {
     top: 333px;
     left: -29px;
     z-index: -1;
+}
+
+.logo_animation{
+    width:50%;
+    position:absolute;
+    top:425px;
+    right: -640px;
 }
 
 /* ------ data start ------ */
