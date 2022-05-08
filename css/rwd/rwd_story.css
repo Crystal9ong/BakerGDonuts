@@ -373,8 +373,10 @@
         margin-bottom: 20px;
     }
 
-    .story_bg {
-        height: 400px;
+    .story_bg{
+        height:250px;
+        background-size:cover;
+        background-attachment:unset;
     }
 
     .whoweare {

@@ -371,12 +371,19 @@
     }
 
     .ingredients ul{
+        display:block;
         justify-content: space-evenly;
     }
 
     .ingredients li{
-        width: 125px;
-        height:125px;
+        width: 70%;
+        margin: 0 auto;
+        width: 180px;
+        height:180px;
+    }
+
+    .ingredients li:nth-child(1),.ingredients li:nth-child(2){
+        margin-bottom: 30px;
     }
 
     .ingredients h3{
@@ -498,15 +505,20 @@
     }
 
     .ingredients ul{
-        display: flex;
-        width: 100%;
-      
+       
+       display: block;
         justify-content: space-evenly;
     }
 
     .ingredients li{
-        width: 125px;
-        height:125px;
+        width: 70%;
+        margin: 0 auto;
+        width: 150px;
+        height:150px;
+    }
+
+    .ingredients li:nth-child(1),.ingredients li:nth-child(2){
+        margin-bottom: 20px;
     }
 
     .ingredients h3{
