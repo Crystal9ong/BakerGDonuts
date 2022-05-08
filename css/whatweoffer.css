@@ -6,7 +6,7 @@ body {
     font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 16px;
-    min-width:1440px;
+    /* min-width:1440px; */
 }
 
 img {
@@ -30,6 +30,7 @@ p {
     margin: 0 auto;
     margin-top: 80px;
     text-align: center;
+    /* outline: 2px red solid; */
 }
 
 .display_title {
@@ -61,56 +62,47 @@ p {
     letter-spacing: -3px;
     position: absolute;
     color: #EC6D4E;
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 60px;
+    line-height: 70px;
     white-space: nowrap;
     transform: rotate(-8.47deg);
-    top: 545px;
-    left: -15px;
+    top: 98%;
+    left: -10%;
     z-index: 1;
 }
 
 .donuts_front img {
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 16%;
 }
 
-.donuts_side img {
-    margin: 0 auto;
-    margin-top: 220px;
-}
-
-.front_item_01, .front_item_02, .front_item_03 {
-    position: relative;
-}
-
-.front_item_01 h4 {
-    position: absolute;
-    font-size: 24px;
-    line-height: 32px;
+.front_item_01 {
+    font-size: 22px;
+    line-height: 30px;
     font-weight: 600;
-    top: 5px;
-    right: 80px;
+    position: absolute;
+    top: 119px;
+    right: 113px;
 }
 
 .front_item_01:after {
     content: "";
-    width: 230px;
-    height: 3px;
+    width: 200px;
+    height: 2px;
     transform: rotate(-21.22deg);
     background-color: #565656;
     position: absolute;
-    top: 86px;
-    right: 180px;
+    top: 0px;
+    right: 0px;
 }
 
-.front_item_02 h4 {
+.front_item_02 {
     position: absolute;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 30px;
     font-weight: 600;
-    top: 237px;
-    left: 0px;
+    top: 242px;
+    right: 658px;
 }
 
 .front_item_02:after {
@@ -119,105 +111,109 @@ p {
     height: 3px;
     background-color: #565656;
     position: absolute;
-    top: 260px;
-    left: 148px;
+    top: -7px;
+    right: -102px;
 }
 
-.front_item_03 h4 {
+.front_item_03 {
     position: absolute;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 30px;
     font-weight: 600;
-    bottom: -570px;
+    top: 422px;
     right: 130px;
 }
 
 .front_item_03:after {
     content: "";
     width: 230px;
-    height: 3px;
+    height: 2px;
     transform: rotate(47.97deg);
     background-color: #565656;
     position: absolute;
-    bottom: -460px;
-    right: 240px;
+    top: 0px;
+    right: 56px;
 }
+
 /* -------- donuts front end -------- */
 
 /* -------- donuts side start -------- */
-.donuts_side{
+.donuts_side {
     position: relative;
+    width: 400px;
+    height: 420px;
+    margin: 0 auto;
+    /* outline: 2px blue solid; */
 }
 
-.side_line_01{
+.donuts_side img {
     position: absolute;
-    top:167px;
-    right: 254px;
+    margin: 0 auto;
+    margin-top: 22%;
+    right: -13%;
+    top: 7%;
 }
 
-.side_line_01 span {
-    border-top:10px dotted #565656;
-    width:330px;
+.side_line_01 {
+    border-top: 10px dotted #565656;
+    width: 300px;
     transform: rotate(90deg);
     position: absolute;
-  }
-
-  .side_line_01 h4{
-    position: absolute;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-    transform: rotate(-90deg);
-    top:-100px;
-    right: 130px;
-  }
-
-  .side_line_02{
-    position: absolute;
-    top:400px;
-    right: 672px;
+    right: -62%;
+    top: 68%;
 }
 
-.side_line_02 span {
-    border-top:10px dotted #565656;
-    width:490px;
-    position: absolute;
-  }
-
-  .side_line_02 h4{
+.side_title_01 {
     position: absolute;
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
-    top:27px;
-    right: 200px;
-  }
+    /* transform: rotate(-90deg); */
+    right: -51%;
+    top: 64%;
+}
 
+.side_line_02 {
+    border-top: 10px dotted #565656;
+    width: 450px;
+    position: absolute;
+    right: -6%;
+    top: 118%;
+}
+
+.side_title_02 {
+    position: absolute;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    right: 36%;
+    top: 125%;
+}
 
 /* -------- donuts side end -------- */
 
 /* -------- ingredients start -------- */
-.ingredients{
+.ingredients {
     width: 960px;
-margin-top: 250px;
-margin-bottom: 100px;
+    margin-top: 250px;
+    margin-bottom: 100px;
 }
 
-.ingredients ul{
+.ingredients ul {
     display: flex;
     justify-content: space-around;
     box-shadow: #565656;
 }
 
-.ingredients li{
+.ingredients li {
     width: 250px;
     height: 250px;
     border-radius: 50%;
     display: flex;
-   align-items: center;
+    align-items: center;
 }
 
-.ingredients h3{
+.ingredients h3 {
     font-family: 'Libre Bodoni';
     font-size: 28px;
     font-weight: bold;
@@ -226,17 +222,18 @@ margin-bottom: 100px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 
-.food_item_01{
+.food_item_01 {
     background-image: url('../image/whatweoffer/i_01.png');
 }
 
-.food_item_02{
+.food_item_02 {
     background-image: url('../image/whatweoffer/i_02.png');
 }
 
-.food_item_03{
+.food_item_03 {
     background-image: url('../image/whatweoffer/i_03.png');
 }
+
 /* -------- ingredients end -------- */
 
 /* --------------- what offer end --------------- */

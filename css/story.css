@@ -3,26 +3,27 @@
 body {
     background-color: #FFDFA2;
     line-height: 1.6;
-    font-family: 'Quicksand','Akshar','Caveat','Libre Bodoni';
+    font-family: 'Quicksand', 'Akshar', 'Caveat', 'Libre Bodoni';
     color: #565656;
     font-size: 16px;
-    min-width:1440px;
+    /* min-width:1440px; */
 }
 
 img {
     display: block;
 }
 
-p{
+p {
     font-weight: 500;
 }
 
-.hand_line{
+.hand_line {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
     z-index: -1;
 }
+
 /* --------------- font start --------------- */
 .akshar {
     font-size: 20px;
@@ -40,14 +41,15 @@ p{
     font-weight: bold;
 }
 
-.signature{
+.signature {
     font-family: 'Caveat';
     font-size: 60px;
 }
+
 /* --------------- font end --------------- */
 
 /* --------------- emily start --------------- */
-.story{
+.story {
     width: 960px;
     margin: 0 auto;
     display: flex;
@@ -56,60 +58,62 @@ p{
     margin-bottom: 120px;
 }
 
-.story .bio{
+.story .bio {
     text-align: center;
     padding: 60px 0 60px 60px;
 }
 
-.bio .quote{
+.bio .quote {
     position: absolute;
-    top:100px;
+    top: 100px;
     left: 451px;
     z-index: -1;
 }
 
-.bio p{
+.bio p {
     text-align: left;
     margin-bottom: 30px;
 }
 
-.emily_shadow{
+.emily_shadow {
     width: 350px;
     height: 260px;
     background-color: #EC6D4E;
     position: absolute;
-    top:333px;
+    top: 333px;
     left: -29px;
     z-index: -1;
 }
+
 /* ------ data start ------ */
-.story_data{
-margin-bottom: 80px;
+.story_data {
+    margin-bottom: 80px;
 }
 
-.story_data ul{
+.story_data ul {
     width: 960px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-.story_data h3{
+.story_data h3 {
     line-height: 60px;
-    font-size:48px;
+    font-size: 48px;
     font-weight: bold;
 }
 
-.story_data p{
-    font-size:20px;
+.story_data p {
+    font-size: 20px;
 }
 
-.story_data li{
+.story_data li {
     text-align: center;
 }
+
 /* ------ data end ------ */
 
-.story_bg{
+.story_bg {
     height: 500px;
     background-image: url('../image/story/story_bg.png');
     background-repeat: no-repeat;
@@ -118,7 +122,7 @@ margin-bottom: 80px;
 }
 
 /* ------ whoweare start ------ */
-.whoweare{
+.whoweare {
     width: 1080px;
     display: flex;
     margin: 0 auto;
@@ -127,60 +131,65 @@ margin-bottom: 80px;
     margin-bottom: 140px;
 }
 
-.whoweare_desc{
+.whoweare_desc {
     padding: 80px 100px 80px 0;
 }
 
-.text_path{
+.text_path {
     position: absolute;
-    top:-33px;
+    top: -33px;
     left: 544px;
     animation: rotate 30s linear infinite;
 }
 
 @keyframes rotate {
-    100% {transform: rotate(360deg);}
-  }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
-.whoweare .quote{
+.whoweare .quote {
     position: absolute;
-    top:82px;
+    top: 82px;
     left: -21px;
     z-index: -1;
 }
+
 /* ------ whoweare end ------ */
 
 /* ------ process start ------ */
-.process{
+.process {
     background-color: #FFF3DC;
     height: 400px;
     display: flex;
 }
 
-.process ul{
+.process ul {
     width: 1080px;
     display: flex;
     margin: 0 auto;
 }
 
-.process img:nth-child(1),.process img:nth-child(2){
+.process img:nth-child(1),
+.process img:nth-child(2) {
     margin-right: 20px;
 }
 
-.process img{
+.process img {
     margin-top: -80px;
 }
 
-.process_desc{
+.process_desc {
     margin: 80px 0 0 60px;
 }
 
-.process_desc h4{
+.process_desc h4 {
     font-size: 32px;
     line-height: 40px;
     font-family: 'Libre Baskerville';
     font-weight: bold;
     margin-bottom: 30px;
 }
+
 /* ------ process end ------ */
 /* --------------- emily end --------------- */

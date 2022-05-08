@@ -1,11 +1,100 @@
 /*============= RWD 576-767.98 navbar start =============*/
-@media (min-width: 576px) and (max-width: 767.98px){
+@media (min-width: 576px) and (max-width: 767.98px) {
 
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+    /*----- top end -----*/
+    /*----- faqs start -----*/
+    .faqs_container {
+        width: 80%;
+    }
+
+    .faqs_title h3{
+        font-size: 18px;
+    }
+
+    .faqs_title::before{
+        display: none;
+    }
+
+    .faqs_title::after{
+        display: none;
+    }
+    /*----- faqs end -----*/
 }
+
 /*============= RWD 576-767.98 navbar end =============*/
 
 /*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px){
-    
+@media (max-width: 575.98px) {
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+    /*----- top end -----*/
+    /*----- faqs start -----*/
+    .faqs_container {
+        width: 80%;
+    }
+
+    .faqs_title h3{
+        font-size: 16px;
+    }
+
+    .faqs_title::before{
+        display: none;
+    }
+
+    .faqs_title::after {
+        display: none;
+    }
+    /*----- faqs end -----*/
 }
+
 /*============= RWD 576 navbar end =============*/

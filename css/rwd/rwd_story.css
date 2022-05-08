@@ -1,41 +1,557 @@
-/*============= RWD 576-767.98 navbar start =============*/
-@media (min-width: 576px) and (max-width: 767.98px){
-    body{
-        min-width: 100%;
+/*============= RWD 992-1199.98 start =============*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .hand_line {
+        width: 30%;
     }
 
-    .hand_line{
+    /*--- emily ---*/
+    .akshar {
+        font-size: 20px;
+    }
+
+    .libre {
+        font-size: 34px;
+    }
+
+    .bio .quote {
+        top: 79px;
+        left: 510px;
+    }
+
+    .signature {
+        font-size: 48px;
+    }
+
+    .whoweare {
+        width: 90%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .text_path {
         display: none;
     }
 
-    .story{
+    .whoweare_desc {
+        padding: 80px 0;
+    }
+
+    .process {
+        height: 480px;
+    }
+
+    .process ul {
+        width: 90%;
+    }
+
+    .process_desc {
+        margin: 80px 0 0px 30px;
+    }
+
+    .process img {
+        margin-top: 90px;
+    }
+
+}
+
+/*============= RWD 768-991.98 start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hand_line {
+        width: 40%;
+    }
+
+    /*--- emily ---*/
+    .akshar {
+        font-size: 26px;
+    }
+
+    .libre {
+        font-size: 40px;
+    }
+
+    .bio .libre {
+        font-size: 40px;
+        position: relative;
+    }
+
+    .story {
+        width: 70%;
         display: block;
+        margin-top: 200px;
     }
-    
-    .emily{
+
+    .emily img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .story .bio {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        margin: 100px 0;
+        padding: 0;
+    }
+
+    .emily_shadow {
+        display: none;
+    }
+
+    .bio .quote {
+        display: none;
+    }
+
+    .signature {
+        font-size: 45px;
+    }
+
+    /*--- data ---*/
+    .story_data ul {
         width: 100%;
+        justify-content: space-evenly;
     }
 
-    .emily img{
+    .story_data h3 {
+        font-size: 40px;
+    }
+
+    .story_data p {
+        font-size: 22px;
+    }
+
+    .story_bg {
+        height: 400px;
+
+    }
+
+    .whoweare {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        width: 70%;
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .whoweare_desc {
+        padding: 0;
+    }
+
+    .whoweare_desc h2,
+    .whoweare_desc p {
+        text-align: center;
+    }
+
+    .whoweare_desc p {
+        margin-bottom: 40px;
+    }
+
+    .text_path {
         display: none;
     }
 
-    .emily span{
+    .whoweare .quote {
+        top: -21px;
+        left: 94px;
+    }
+
+    .big_donut-m {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .process {
+        height: 350px;
+    }
+
+    .process ul {
+        width: 70%;
+    }
+
+    .process img {
         display: none;
     }
 
-    .quote{
-        display: none;
-    }
-
-    .bio{
-        width: 100%;
+    .process_desc {
+        align-items: center;
+        margin: 80px 0 0 0;
     }
 }
+
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .hand_line {
+        width: 45%;
+    }
+
+    /*--- emily ---*/
+    .akshar {
+        font-size: 24px;
+    }
+
+    .libre {
+        font-size: 36px;
+    }
+
+    .story {
+        width: 70%;
+        display: block;
+        margin-top: 200px;
+    }
+
+    .emily img {
+        margin: 0 auto;
+    }
+
+    .story .bio {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        margin: 100px 0;
+        padding: 0;
+    }
+
+    .emily_shadow {
+        display: none;
+    }
+
+    .bio .quote {
+        display: none;
+    }
+
+    .signature {
+        font-size: 40px;
+    }
+
+    /*--- data ---*/
+    .story_data ul {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .story_data h3 {
+        font-size: 40px;
+    }
+
+    .story_data p {
+        font-size: 18px;
+    }
+
+    .story_bg {
+        height: 400px;
+
+    }
+
+    .whoweare {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        width: 70%;
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .whoweare_desc {
+        padding: 0;
+    }
+
+    .whoweare_desc h2,
+    .whoweare_desc p {
+        text-align: center;
+    }
+
+    .whoweare_desc p {
+        margin-bottom: 40px;
+    }
+
+    .text_path {
+        display: none;
+    }
+
+    .whoweare .quote {
+        top: -21px;
+        left: 69px;
+    }
+
+    .big_donut-m {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .process {
+        height: 350px;
+    }
+
+    .process ul {
+        width: 70%;
+    }
+
+    .process img {
+        display: none;
+    }
+
+    .process_desc {
+        align-items: center;
+        margin: 80px 0 0 0;
+    }
+
+}
+
 /*============= RWD 576-767.98 navbar end =============*/
 
-/*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px){
-    
+/*============= RWD 414-575.98 start =============*/
+@media (min-width: 414px) and (max-width:575.98px) {
+    .bio .quote {
+        display: none;
+    }
+
+    .hand_line {
+        width: 55%;
+    }
+
+    .akshar {
+        font-size: 20px;
+    }
+
+    .libre {
+        font-size: 28px;
+    }
+
+    .signature {
+        font-size: 34px;
+    }
+
+    .story {
+        /* outline: 2px solid blue; */
+        width: 70%;
+        display: block;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .emily img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .story .bio {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        margin: 70px 0 0 0;
+        padding: 0;
+    }
+
+    .emily_shadow {
+        display: none;
+    }
+
+    .bio .quote {
+        position: absolute;
+        top: 577px;
+        left: 31px;
+        z-index: -1;
+    }
+
+    /*--- data ---*/
+    .story_data ul {
+        display: block;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .story_data h3 {
+        line-height: 40px;
+        font-size: 32px;
+    }
+
+    .story_data p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .story_bg {
+        height: 400px;
+    }
+
+    .whoweare {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        width: 70%;
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .whoweare_desc {
+        padding: 0;
+    }
+
+    .whoweare_desc h2,
+    .whoweare_desc p {
+        text-align: center;
+    }
+
+    .whoweare_desc p {
+        margin-bottom: 40px;
+    }
+
+    .text_path {
+        display: none;
+    }
+
+    .whoweare .quote {
+        top: -21px;
+        left: 69px;
+    }
+
+    .big_donut-m {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .process ul {
+        width: 70%;
+    }
+
+    .process img {
+        display: none;
+    }
+
+    .process_desc {
+        align-items: center;
+        margin: 80px 0 0 0;
+    }
+
+    .process_desc h4 {
+        font-size: 28px;
+    }
+
 }
-/*============= RWD 576 navbar end =============*/
+
+/*============= RWD 413.98 start =============*/
+@media (max-width:413.98px) {
+    .bio .quote {
+        display: none;
+    }
+
+    .hand_line {
+        width: 55%;
+    }
+
+    .akshar {
+        font-size: 20px;
+    }
+
+    .libre {
+        font-size: 28px;
+    }
+
+    .signature {
+        font-size: 34px;
+    }
+
+    .story {
+        /* outline: 2px solid blue; */
+        width: 70%;
+        display: block;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .emily img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .story .bio {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        margin: 70px 0 0 0;
+        padding: 0;
+    }
+
+    .emily_shadow {
+        display: none;
+    }
+
+    .bio .quote {
+        position: absolute;
+        top: 577px;
+        left: 31px;
+        z-index: -1;
+    }
+
+    /*--- data ---*/
+    .story_data ul {
+        display: block;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .story_data h3 {
+        line-height: 40px;
+        font-size: 32px;
+    }
+
+    .story_data p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .story_bg {
+        height: 400px;
+    }
+
+    .whoweare {
+        /* outline: rgb(255, 0, 0) 2px solid ; */
+        width: 70%;
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .whoweare_desc {
+        padding: 0;
+    }
+
+    .whoweare_desc h2,
+    .whoweare_desc p {
+        text-align: center;
+    }
+
+    .whoweare_desc p {
+        margin-bottom: 40px;
+    }
+
+    .text_path {
+        display: none;
+    }
+
+    .whoweare .quote {
+        top: -21px;
+        left: 69px;
+    }
+
+    .big_donut-m {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .process {
+        padding-bottom: 60px;
+    }
+
+    .process ul {
+        width: 70%;
+
+    }
+
+    .process img {
+        display: none;
+    }
+
+    .process_desc {
+        align-items: center;
+        margin: 70px 0 0 0;
+
+    }
+
+    .process_desc h4 {
+        font-size: 28px;
+    }
+
+
+}

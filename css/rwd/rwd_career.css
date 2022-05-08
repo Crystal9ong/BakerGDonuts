@@ -1,11 +1,122 @@
 /*============= RWD 576-767.98 navbar start =============*/
-@media (min-width: 576px) and (max-width: 767.98px){
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+        /*----- button start -----*/
+.btn_o{
+    font-size: 20px;
+    padding: 8px 70px;
 }
+
+.btn_w{
+    font-size: 20px;
+    padding:  8px 70px;
+}
+/*----- button end -----*/
+    .akshar{
+        font-size: 24px;
+    }
+
+    .libre{
+        font-size: 30px;  
+    }
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- form start -----*/
+    .form {
+        width: 80%;
+        display: block;
+    }
+
+    .form_photo {
+        display: none;
+    }
+
+    .form_input {
+        width: 70%;
+        display: contents;
+    }
+    /*----- form end -----*/
+}
+
 /*============= RWD 576-767.98 navbar end =============*/
 
 /*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px){
-    
+@media (max-width: 575.98px) {
+    .btn_o{
+        font-size: 22px;
+        padding: 8px 70px;
+    }
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- form start -----*/
+    .form {
+        width: 80%;
+        display: block;
+    }
+
+    .form_photo {
+        display: none;
+    }
+
+    .form_input {
+        width: 70%;
+        display: contents;
+    }
+    /*----- form end -----*/
 }
+
 /*============= RWD 576 navbar end =============*/

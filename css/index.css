@@ -389,7 +389,6 @@ p {
 }
 
 .dotted_bg img {
-    height: 170px;
     position: absolute;
     top: -135px;
     left: 440px;
@@ -402,8 +401,8 @@ p {
     height: 86px;
     position: absolute;
     z-index: -1;
-    top: 257px;
-    right: -11px;
+    top: 260px;
+    right: -12px;
 }
 
 .text_container span {

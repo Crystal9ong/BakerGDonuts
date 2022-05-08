@@ -1,9 +1,126 @@
-/*============= RWD 576-767.98 navbar start =============*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+/*============= RWD 992-1199.98 start =============*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+     /*----- button start -----*/
+.btn_o{
+    font-size: 16px;
+    padding: 6px 40px;
+}
 
-/*============= RWD 576-767.98 navbar start =============*/
-@media (min-width: 576px) and (max-width: 767.98px) {
+.btn_w{
+    font-size: 20px;
+    padding:  8px 50px;
+}
+/*----- button end -----*/
+    .akshar{
+        font-size: 20px;
+    }
 
+    .libre{
+        font-size: 26px;  
+    }
+
+    /*----- top start -----*/
+    .top_deco{
+        display: none;
+    }
+
+    .top_banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .top_title{
+        font-size: 58px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    /*----- top end -----*/
+
+    /*----- donuts list start -----*/
+    .donuts_list {
+        width: 70%;
+    }
+
+    .donuts_list img{
+        width: 100%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_items ul {
+        justify-content:space-evenly;
+        width: 100%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+
+
+    .donuts_container {
+        /* width: 100%;
+        flex-shrink:0; */
+        margin: 0 20px;
+    }
+
+   .event_container{
+       width: 90%;
+   }
+
+   .dialog{
+    width: 460px;
+    height: 480px;
+    background-size: contain;
+   }
+
+   .dialog_text span{
+    font-size:16px;
+   }
+
+   .donutsbox{
+       width: 380px;
+   }
+
+   .giftcup{
+       width: 35%;
+       left: -22px;
+   }
+   
+   .event_gift span{
+    font-size: 65px;
+    top: 52px;
+   }
+
+}
+
+/*============= RWD 768-991.98 start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*----- button start -----*/
+  .btn_o{
+    font-size: 16px;
+    padding: 6px 40px;
+}
+
+.btn_w{
+    font-size: 20px;
+    padding:  8px 50px;
+}
+/*----- button end -----*/
+    .akshar{
+        font-size: 22px;
+    }
+
+    .libre{
+        font-size: 26px;  
+    }
+
+    .howtobuy .akshar{
+        font-size: 24px;
+    }
     /*----- top start -----*/
     .top {
         width: 100%;
@@ -11,7 +128,7 @@
     }
 
     .top_title {
-        font-size: 48px;
+        font-size: 42px;
         width: 100%;
         text-align: center;
         align-items: center;
@@ -30,11 +147,240 @@
     .top_deco {
         display: none;
     }
+
     /*----- top end -----*/
 
     /*----- donuts list start -----*/
     .donuts_list {
+        width: 80%;
+    }
+
+    .donuts_items {
         width: 100%;
+    }
+
+    .donuts_items ul {
+        justify-content:space-evenly;
+        width: 100%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_container {
+        /* width: 100%;
+        flex-shrink:0; */
+        margin: 0 20px;
+    }
+
+    .event_container{
+        width: 90%;
+    }
+
+    /*----- donuts list end -----*/
+    .dialog{
+        width: 460px;
+        height: 480px;
+        background-size: contain;
+       }
+    
+       .dialog_text span{
+        font-size:16px;
+       }
+    
+       .donutsbox{
+           width: 380px;
+       }
+    
+       .giftcup{
+           width: 35%;
+           left: -22px;
+       }
+       
+       .event_gift span{
+        font-size: 65px;
+        top: 52px;
+       }
+   
+}
+
+/*============= RWD 576-767.98 navbar start =============*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*----- button start -----*/
+.btn_o{
+    font-size: 20px;
+    padding: 8px 50px;
+}
+
+.btn_w{
+    font-size: 20px;
+    padding:  8px 50px;
+}
+/*----- button end -----*/
+    .akshar{
+        font-size: 24px;
+    }
+
+    .libre{
+        font-size: 30px;  
+    }
+
+    .howtobuy .akshar{
+        font-size: 24px;
+    }
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .top_title {
+        font-size: 38px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- donuts list start -----*/
+    .donuts_list {
+        width: 90%;
+    }
+
+    .donuts_list img{
+        width: 90%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_items ul {
+        justify-content:space-evenly;
+        width: 100%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_container {
+        /* width: 100%;
+        flex-shrink:0; */
+        margin: 0 20px;
+    }
+
+    /*----- donuts list end -----*/
+
+    /*----- event start -----*/
+    .event_container {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 550px;
+    }
+
+    /*- dialog start -*/
+    .dialog {
+        width: 100vw;
+        height: 600px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        top: 0px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+
+    .dialog_text {
+        width: 70vw;
+    }
+
+    .dialog_text h2:after {
+        display: none;
+    }
+
+    /*- dialog end -*/
+    /*----- event start -----*/
+    .event_gift span{
+        top: 50px;
+        left: 100px;
+    }
+    /*----- event end -----*/
+}
+
+/*============= RWD 414-575.98 start =============*/
+@media (min-width: 414px) and (max-width:575.98px){
+    .akshar{
+        font-size: 24px;
+    }
+
+    .libre{
+        font-size: 28px;  
+    }
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+    /*----- button start -----*/
+.btn_o{
+    font-size: 22px;
+    padding: 8px 40px;
+}
+
+.btn_w{
+    font-size: 22px;
+    padding:  8px 40px;
+}
+/*----- button end -----*/
+
+    .top_title {
+        font-size: 28px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- donuts list start -----*/
+    .donuts_list {
+        width: 90%;
+    }
+
+    .donuts_list img{
+        width: 90%;
     }
 
     .donuts_items {
@@ -55,6 +401,7 @@
         flex-shrink:0; */
         margin: 0 20px;
     }
+
     /*----- donuts list end -----*/
 
     /*----- event start -----*/
@@ -62,8 +409,10 @@
         width: 100%;
         display: block;
         margin: 0 auto;
-        padding-bottom: 580px;
+        padding-top: 0px;
+        padding-bottom: 500px;
     }
+
     /*- dialog start -*/
     .dialog {
         width: 100vw;
@@ -83,13 +432,173 @@
     .dialog_text h2:after {
         display: none;
     }
+
     /*- dialog end -*/
-    /*----- event start -----*/
+
+    .event_gift {
+        width: 100%;
+    }
+
+    .event_gift span {
+        font-size: 60px;
+        top: 70px;
+        left: 200px;
+    }
+
+    .donutsbox {
+        width: 65%;
+        top: 144px;
+        left:140px;
+    }
+
+    .giftcup {
+        width: 25%;
+        top: 160px;
+        left: 80px;
+    }
+
 }
 
-/*============= RWD 576-767.98 navbar end =============*/
+/*============= RWD 413.98 start =============*/
+@media (max-width: 413.98px) {
 
-/*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px) {}
+    .akshar{
+        font-size: 20px;
+    }
 
-/*============= RWD 576 navbar end =============*/
+    .libre{
+        font-size: 24px;  
+    }
+    .top {
+        width: 100%;
+        margin-top: 100px;
+    }
+    /*----- button start -----*/
+.btn_o{
+    font-size: 16px;
+    padding: 6px 30px;
+}
+
+.btn_w{
+    font-size: 22px;
+    padding:  8px 40px;
+}
+/*----- button end -----*/
+
+    .top_title {
+        font-size: 22px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        /* margin-left: 60px; */
+    }
+
+    .top_banner_container {
+        width: 100%;
+    }
+
+    .top_banner {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .top_deco {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- donuts list start -----*/
+    .donuts_list {
+        width: 90%;
+    }
+
+    .donuts_list img{
+        width: 90%;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_items ul {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .donuts_list h5{
+        font-size: 14px;
+    }
+
+    .donuts_items {
+        width: 100%;
+    }
+
+    .donuts_container {
+        /* width: 100%;
+        flex-shrink:0; */
+        margin: 0 20px;
+    }
+
+    /*----- donuts list end -----*/
+
+    /*----- event start -----*/
+    .event_container {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 500px;
+    }
+
+    /*- dialog start -*/
+    .dialog {
+        width: 100vw;
+        height: 600px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        top: 0px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+
+    .dialog_text {
+        width: 70vw;
+    }
+
+    .dialog_text h2:after {
+        display: none;
+    }
+
+    /*- dialog end -*/
+
+    .event_gift {
+        width: 90%;
+    }
+
+    .event_gift span {
+        font-size: 50px;
+        top: 87px;
+        left: 170px;
+    }
+
+    .donutsbox {
+        width: 65%;
+        top: 144px;
+        left:140px;
+    }
+
+    .giftcup {
+        width: 30%;
+        top: 160px;
+        left: 80px;
+    }
+
+    .event_gift{
+        margin-left: -25px;
+        margin-bottom: -70px;
+    }
+
+}
+

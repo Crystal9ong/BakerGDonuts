@@ -1,76 +1,653 @@
-/*============= RWD 576-767.98 navbar start =============*/
+/*============= RWD 992-1199.98 start =============*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .popupquotebg{
+        width: 400px;
+    }
+
+    .popupquoteb{
+        width: 90px;
+    }
+
+    .popupquotes{
+        top:358px;
+        width: 40px;
+    }
+
+    .popup-result-text .akshar{
+        font-size:20px;
+    }
+
+    .holla{
+        font-size:40px;
+    }
+
+    .popup-result-text{
+        padding:60px 60px;
+    }
+
+    .popup-result-text h4{
+        font-size: 18px;
+    }
+
+    .popup-result-cancel{
+        top:42px;
+        left: 380px;
+    }
+    
+    .top {
+        width: 90%;
+    }
+
+    .donut_display img {
+        left: 310px;
+    }
+
+    .donut_display {
+        margin-left: 0px;
+    }
+
+    .text_container {
+        width: 70%;
+    }
+
+    .text_container h1 {
+        font-size: 450%;
+        line-height: 110px;
+    }
+
+    .dotted_bg img {
+        top: -122px;
+        left: 280px;
+    }
+
+    .flag {
+        top: -451px;
+        left: 5px;
+    }
+
+    .text_container span {
+        display: none;
+    }
+
+    .highlight_bg {
+        display: none;
+    }
+
+    .news {
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    .news_dotted_left,
+    .news_dotted_right {
+        display: none;
+    }
+
+    .news_item {
+        width: 300px;
+    }
+
+    .news_item span {
+        display: none;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .choc {
+        width: 100%;
+    }
+
+    .choc img {
+        width: 100%;
+    }
+
+    .choc span {
+       display: none;
+    }
+
+    .cream {
+        margin: 100px 0 80px;
+    }
+
+    .cream img {
+        width: 90%;
+    }
+
+    .cream_bg {
+        width: 85%;
+        height: 50%;
+    }
+
+    .dialog {
+        width: 400px;
+        height: 420px;
+        background-size: contain;
+        top: 26px;
+        left: 30px;
+    }
+
+    .dialog_text {
+        width: 260px;
+    }
+
+    .akshar {
+        font-size: 16px;
+    }
+
+    .libre {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .dialog_text h2:after {
+        top: 108px;
+        left: 105px;
+    }
+
+    .dialog_text p {
+        margin-bottom: 20px;
+    }
+
+    .howtobuy {
+        width: 90%;
+    }
+
+    .howtobuy .akshar {
+        font-size: 16px;
+    }
+
+    .howtobuy img {
+        width: 35%;
+    }
+
+    .howtobuy li {
+        width: 50%;
+    }
+
+    .howtobuy h4 {
+        font-size: 16px;
+    }
+
+    .story_container {
+        width: 90%;
+        height: 50%;
+    }
+
+    .story_01,
+    .story_02,
+    .story_03 {
+        width: 28%;
+    }
+
+    .story_01 {
+        left: 257px;
+    }
+
+    .story_02 {
+        left: 139px;
+    }
+
+    .story_01:hover {
+        left: 273px;
+    }
+
+    .story_02:hover {
+        left: 144px;
+    }
+
+    .glory {
+        width: 100%;
+    }
+
+    .slogan h1 {
+        font-size: 48px;
+        margin-top: 80px;
+    }
+
+    .comments {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .carousel-container {
+        width: 90%;
+    }
+
+    .followig {
+        width: 90%;
+    }
+
+    .follow_item {
+        margin-right: -10px;
+    }
+
+    .follow_item img {
+        width: 90%;
+    }
+
+    .shop {
+        width: 90%;
+    }
+
+    .shop img {
+        width: 100%;
+    }
+
+    .rotated_text {
+        display: none;
+    }
+
+    .dialog_shop {
+        width: 400px;
+        height: 420px;
+        background-size: contain;
+        top: 45px;
+        left: 30px;
+    }
+
+    .dialog_text_shop {
+        width: 280px;
+    }
+
+    .dialog_text_shop h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .dialog_text_shop span {
+        font-size: 16px;
+    }
+}
+
+/*============= RWD 768-991.98 start =============*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .form-popup{
+        width: 280px;
+    height: 380px;
+    }
+
+    .form-popup .akshar{
+        font-size: 14px;
+    }
+
+    .form-popup h3{
+        font-size: 20px;
+    }
+
+    .form-popup span{
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .pop_email input{
+        width: 200px;
+        margin: 5px 0;
+    }
+
+    .pop_email{
+        padding-bottom:23px;
+    }
+
+    .popuplogo {
+        width: 25%;
+    }
+
+    .popupquotebg{
+        width: 400px;
+    }
+
+    .popupquoteb{
+        width: 90px;
+    }
+
+    .popupquotes{
+        top:358px;
+        width: 40px;
+    }
+
+    .popup-result-text .akshar{
+        font-size:20px;
+    }
+
+    .holla{
+        font-size:40px;
+    }
+
+    .popup-result-text{
+        padding:60px 60px;
+    }
+
+    .popup-result-text h4{
+        font-size: 18px;
+    }
+
+    .popup-result-cancel{
+        top:42px;
+        left: 380px;
+    }
+
+    .top {
+        width: 90%;
+        height: 40%;
+        margin-top: 14%;
+        margin-bottom: 8%;
+        justify-content: space-between;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .text_container {
+        height: 45%;
+        width: 65%;
+    }
+
+    .text_container h1 {
+        font-size: 370%;
+        line-height: 130%;
+    }
+
+    .donut_display {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .donut_display img {
+        width: 90%;
+    }
+
+    .flag {
+        top: -334px;
+        left: 14px;
+    }
+
+    .flag img {
+        width: 70%;
+    }
+
+    .flag_text {
+        font-size: 110%;
+    }
+
+    .dotted_bg img {
+        height: 120px;
+        top: -98px;
+        left: 230px;
+    }
+
+    .text_container span {
+        display: none;
+    }
+
+    .highlight_bg {
+        display: none;
+    }
+
+    .news {
+        display: none;
+    }
+
+    .feature {
+        width: 100%;
+    }
+
+    .choc {
+        width: 100%;
+    }
+
+    .choc img {
+        width: 100%;
+    }
+
+    .choc span {
+       display: none;
+    }
+
+    .cream {
+        margin: 100px 0 80px;
+    }
+
+    .cream img {
+        width: 90%;
+    }
+
+    .cream_bg {
+        width: 85%;
+        height: 50%;
+    }
+
+    .dialog {
+        width: 400px;
+        height: 420px;
+        background-size: contain;
+        top: 26px;
+        left: 30px;
+    }
+
+    .dialog_text {
+        width: 260px;
+    }
+
+    .akshar {
+        font-size: 16px;
+    }
+
+    .libre {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .dialog_text h2:after {
+        top: 108px;
+        left: 105px;
+    }
+
+    .dialog_text p {
+        margin-bottom: 20px;
+    }
+
+    .howtobuy {
+        width: 90%;
+    }
+
+    .howtobuy .akshar {
+        font-size: 16px;
+    }
+
+    .howtobuy img {
+        width: 35%;
+    }
+
+    .howtobuy li {
+        width: 50%;
+    }
+
+    .howtobuy h4 {
+        font-size: 16px;
+    }
+
+    .story_container {
+        width: 90%;
+        height: 20%;
+    }
+
+    .story_01,
+    .story_02,
+    .story_03 {
+        width: 25%;
+    }
+
+    .story_01 {
+        top: 31%;
+        left: 21%;
+    }
+
+    .story_02 {
+        left: 122px;
+    }
+
+    .story_01:hover {
+        top: 31%;
+        left: 21%;
+    }
+
+    .story_02:hover {
+        top: -6px;
+        left: 122px;
+    }
+
+    .story_03:hover {
+        top: 89px;
+        left: 25px;
+    }
+
+    .glory {
+        width: 90%;
+    }
+
+    .slogan h1 {
+        font-size: 40px;
+    }
+
+    .quote_bg {
+        top: -24px;
+        left: 81px;
+    }
+
+    .followig {
+        width: 90%;
+    }
+
+    .follow_item img {
+        width: 70%;
+    }
+
+    .follow_item {
+        margin-right: -70px;
+    }
+
+    .shop {
+        width: 100%;
+    }
+
+    .shop img {
+        width: 100%;
+    }
+
+    .rotated_text {
+        display: none;
+    }
+
+    .dialog_shop {
+        width: 400px;
+        height: 420px;
+        background-size: contain;
+        top: 61px;
+        left: 53px;
+    }
+
+    .dialog_text_shop {
+        width: 280px;
+    }
+
+    .dialog_text_shop h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .dialog_text_shop span {
+        font-size: 16px;
+    }
+}
+
+/*============= RWD 576-767.98 start =============*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-   /*----- aside start -----*/
-   .aside {
-    display: none;
-}
+    /*----- aside start -----*/
+    .aside {
+        display: none;
+    }
 
-/*----- aside end -----*/
-.form-popup {
-    display: none;
-}
+    /*----- aside end -----*/
+    .form-popup {
+        display: none;
+    }
 
-/*----- top start -----*/
-.top {
-    width: 100%;
-    flex-direction: column;
-    margin: 160px 0;
-    margin-bottom: -120px;
-}
+    /*----- button start -----*/
+    .btn_o {
+        font-size: 20px;
+        padding: 8px 50px;
+    }
 
-.text_container {
-    width: 100%;
-    margin: 0 0 60px 0;
-    order: 2;
-    margin: 0 auto;
-}
+    .btn_w {
+        font-size: 20px;
+        padding: 8px 50px;
+    }
 
-.text_container h1 {
-    width: 100%;
-    text-align: center;
-    font-size: 68px;
-    line-height: 100px;
-    margin: 0 auto;
-}
+    /*----- button end -----*/
 
-.highlight_bg {
-    width: 597px;
-    top: 210px;
-    right: 78px;
-}
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        flex-direction: column;
+        margin: 160px 0;
+        margin-bottom: -120px;
+    }
 
-.slider {
-    order: 1;
-}
+    .text_container {
+        width: 100%;
+        margin: 0 0 60px 0;
+        order: 2;
+        margin: 0 auto;
+    }
 
-.donut_display {
-    margin-left: 0px;
-}
+    .text_container h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 68px;
+        line-height: 100px;
+        margin: 0 auto;
+    }
 
-.flag {
-    top: -448px;
-    left: 0px;
-}
+    .highlight_bg {
+        display: none;
+    }
 
-.dotted_bg img {
-    top: -220px;
-    left: 380px;
-}
+    .slider {
+        order: 1;
+    }
 
-.text_container span {
-    font-size: 70px;
-    top: 118px;
-    left: 329px;
-    z-index: 0;
-}
+    .donut_display {
+        margin-left: 0px;
+    }
 
-/*----- top end -----*/
+    .flag {
+        top: -448px;
+        left: 0px;
+    }
+
+    .dotted_bg img {
+        /* display: none; */
+        top: -168px;
+        left: 337px;
+    }
+
+    .text_container span {
+        display: none;
+    }
+
+    /*----- top end -----*/
 
     /*----- news start -----*/
     .news {
         display: none;
     }
+
     /*----- news end -----*/
 
     /*----- feature start -----*/
@@ -79,7 +656,12 @@
         /* overflow: hidden; */
     }
 
-    .cream, .choc{
+    .feature .dotted_bg{
+        display: none;
+    }
+
+    .cream,
+    .choc {
         display: none;
     }
 
@@ -88,12 +670,12 @@
         display: block;
     }
 
-    .cream-m{
-        display:block;
+    .cream-m {
+        display: block;
         margin-top: 200px;
     }
 
-    .choc-m img{
+    .choc-m img {
         width: 100%;
     }
 
@@ -121,11 +703,23 @@
         width: 70vw;
     }
 
-    .dialog_text h2:after{
+    .dialog_text h2:after {
         display: none;
     }
 
     /*----- dialog end -----*/
+
+    .akshar {
+        font-size: 24px;
+    }
+
+    .libre {
+        font-size: 30px;
+    }
+
+    .howtobuy .akshar {
+        font-size: 24px;
+    }
 
     /*----- how to buy start -----*/
     .howtobuy {
@@ -138,7 +732,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-         
+
     }
 
     .howtobuy li {
@@ -157,11 +751,11 @@
         width: 100%;
     }
 
-    .story_container{
+    .story_container {
         width: 70vw;
     }
 
-    .story_photo{
+    .story_photo {
         display: none;
     }
 
@@ -202,93 +796,135 @@
         left: -86px;
     }
 
-    .desc{
+    .desc {
         width: 70vw;
         height: 600px;
     }
 
-    .desc h2:after{
+    .desc h2:after {
         display: none;
     }
+
     /*----- story end -----*/
 
-   /*----- glory start -----*/
-   .glory{
-       width: 100%;
-   }
+    /*----- glory start -----*/
+    .glory {
+        width: 100%;
+    }
 
-   .slogan h1{
-    font-size: 30px;
-   }
+    .slogan h1 {
+        font-size: 38px;
+    }
 
-   #prevBtn{
-    left:30px;
-    z-index: 1;
-   }
+    #prevBtn {
+        left: 30px;
+        z-index: 1;
+    }
 
-   #nextBtn {
-    top: 52%;
-    right: 30px;
-    z-index: 1;
-   }
+    #nextBtn {
+        top: 52%;
+        right: 30px;
+        z-index: 1;
+    }
 
-   .comments_item{
-    width: 200px;
-    margin: 0 auto;
-    padding: 60px 70px;
-   }
+    .comments_item {
+        width: 250px;
+        margin: 0 auto;
+        padding: 60px 80px;
+    }
 
-   .quote_bg{
-    top: -11px;
-    left: 48px;
-   }
-   /*----- glory end -----*/
 
-   /*----- ig start -----*/
-   .followig{
-       width: 100%;
-   }
+    .quote_bg {
+        top: -11px;
+        left: 48px;
+    }
 
-   .followig .akshar{
-       margin-bottom: 40px;
-   }
-   /*----- ig end -----*/
+    /*----- glory end -----*/
 
-   /*----- shop start -----*/
-   .shop{
-    width:100%;
-    margin-bottom:482px;
-    /* display: flex; */
-   }
+    /*----- ig start -----*/
+    .followig {
+        width: 100%;
+    }
 
-   .shop img{
-       width: 100%;
-   }
+    .followig .akshar {
+        margin-bottom: 40px;
+    }
 
-   .rotated_text{
-       display: none;
-   }
+    /*----- ig end -----*/
 
-   .dialog_shop{
-    width: 100%;
-    height: 400px;
-    background-color: #FAFAFA;
-    background-image: url('/image/top_dotted_bg.png');
-    background-repeat: repeat;
-    padding-top: 100px;
-    margin-top: 65%;
-    z-index: 3;
-    left: 0;
-    display: block;
-   }
-   /*----- shop end -----*/
+    /*----- shop start -----*/
+    .shop {
+        width: 100%;
+        margin-bottom: 482px;
+        /* display: flex; */
+    }
+
+    .shop img {
+        width: 100%;
+    }
+
+    .rotated_text {
+        display: none;
+    }
+
+    .dialog_shop {
+        width: 100%;
+        height: 400px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        padding-top: 100px;
+        margin-top: 65%;
+        z-index: 3;
+        left: 0;
+        display: block;
+    }
+
+    /*----- shop end -----*/
 }
-/*============= RWD 576-767.98 navbar end =============*/
 
-/*============= RWD 576 navbar start =============*/
-@media (max-width: 575.98px){
-     /*----- aside start -----*/
-     .aside {
+/*============= RWD 414-575.98 start =============*/
+@media (min-width: 414px) and (max-width:575.98px) {
+
+
+    .akshar {
+        font-size: 20px;
+    }
+
+    .libre {
+        font-size: 24px;
+    }
+
+    .howtobuy .akshar {
+        font-size: 20px;
+    }
+
+    /*----- button start -----*/
+    .btn_o {
+        font-size: 18px;
+        padding: 6px 30px;
+    }
+
+    .btn_w {
+        font-size: 18px;
+        padding: 6px 30px;
+    }
+
+    .donut_display img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*----- button end -----*/
+
+    .comments_item {
+        width: 200px;
+        margin: 0 auto;
+        padding: 60px 40px;
+    }
+
+    /*----- aside start -----*/
+    .aside {
         display: none;
     }
 
@@ -315,15 +951,14 @@
     .text_container h1 {
         width: 100%;
         text-align: center;
-        font-size: 58px;
-        line-height: 80px;
+        font-size: 50px;
+        line-height: 70px;
         margin: 0 auto;
+        margin-top: 60px;
     }
 
     .highlight_bg {
-        width: 450px;
-        top: 159px;
-        right: 47px;
+        display: none;
     }
 
     .slider {
@@ -335,20 +970,26 @@
     }
 
     .flag {
-        top: -448px;
-        left: 0px;
+        top: -338px;
+        left: 40px;
+    }
+
+    .flag img{
+        width: 80%;
+    }
+
+    .flag h5{
+        font-size: 22px;
     }
 
     .dotted_bg img {
-        top: -220px;
-        left: 380px;
+        width: 40%;
+        top: -117px;
+        left: 277px;
     }
 
     .text_container span {
-        font-size: 60px;
-        top: 87px;
-        left: 329px;
-        z-index: 0;
+        display: none;
     }
 
     /*----- top end -----*/
@@ -357,6 +998,7 @@
     .news {
         display: none;
     }
+
     /*----- news end -----*/
 
     /*----- feature start -----*/
@@ -365,7 +1007,8 @@
         /* overflow: hidden; */
     }
 
-    .cream, .choc{
+    .cream,
+    .choc {
         display: none;
     }
 
@@ -374,12 +1017,12 @@
         display: block;
     }
 
-    .cream-m{
-        display:block;
+    .cream-m {
+        display: block;
         margin-top: 200px;
     }
 
-    .choc-m img{
+    .choc-m img {
         width: 100%;
     }
 
@@ -407,7 +1050,7 @@
         width: 70vw;
     }
 
-    .dialog_text h2:after{
+    .dialog_text h2:after {
         display: none;
     }
 
@@ -424,7 +1067,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-         
+
     }
 
     .howtobuy li {
@@ -443,11 +1086,11 @@
         width: 100%;
     }
 
-    .story_container{
+    .story_container {
         width: 70vw;
     }
 
-    .story_photo{
+    .story_photo {
         display: none;
     }
 
@@ -488,92 +1131,453 @@
         left: -86px;
     }
 
-    .desc{
+    .desc {
         width: 70vw;
         height: 600px;
     }
 
-    .desc h2:after{
+    .desc h2:after {
         display: none;
     }
+
     /*----- story end -----*/
 
-   /*----- glory start -----*/
-   .glory{
-       width: 100%;
-   }
+    /*----- glory start -----*/
+    .glory {
+        width: 100%;
+    }
 
-   .slogan h1{
-    font-size: 30px;
-   }
+    .slogan h1 {
+        font-size: 26px;
+    }
 
-   #prevBtn{
-    left:30px;
-    z-index: 1;
-   }
+    #prevBtn {
+        left: 30px;
+        z-index: 1;
+    }
 
-   #nextBtn {
-    top: 52%;
-    right: 30px;
-    z-index: 1;
-   }
+    #nextBtn {
+        top: 52%;
+        right: 30px;
+        z-index: 1;
+    }
 
-   .comments_item{
-    width: 250px;
-    margin: 0 auto;
-    padding: 60px 80px;
-   }
+    .quote_bg {
+        top: -11px;
+        left: 48px;
+    }
 
-   .quote_bg{
-    top: -11px;
-    left: 48px;
-   }
-   /*----- glory end -----*/
+    /*----- glory end -----*/
 
-   /*----- ig start -----*/
-   .followig{
-       width: 100%;
-   }
+    /*----- ig start -----*/
+    .followig {
+        width: 100%;
+    }
 
-   .followig .akshar{
-       margin-bottom: 40px;
-   }
-   /*----- ig end -----*/
+    .followig .akshar {
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
 
-   /*----- shop start -----*/
-   .shop{
-    width:100%;
-    margin-bottom:482px;
-    /* display: flex; */
-   }
+    .follow_item img{
+        width: 80%; 
+    }
 
-   .shop img{
-       width: 100%;
-   }
+    .follow_item {
+        margin-right: -40px;
+    }
 
-   .rotated_text{
-       display: none;
-   }
+    /*----- ig end -----*/
 
-   .dialog_shop{
-    width: 100%;
-    height: 400px;
-    background-color: #FAFAFA;
-    background-image: url('/image/top_dotted_bg.png');
-    background-repeat: repeat;
-    padding-top: 100px;
-    margin-top: 65%;
-    z-index: 3;
-    left: 0;
-    display: block;
-   }
-   /*----- shop end -----*/
-  }
-  /*============= RWD 576 navbar start =============*/
-  @media (max-width: 575.98px){
-  .comments_item{
-    width: 200px;
-    margin: 0 auto;
-    padding: 60px 40px;
-   }
+    /*----- shop start -----*/
+    .shop {
+        width: 100%;
+        margin-bottom: 482px;
+        /* display: flex; */
+    }
+
+    .shop img {
+        width: 100%;
+    }
+
+    .rotated_text {
+        display: none;
+    }
+
+    .dialog_shop {
+        width: 100%;
+        height: 400px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        padding-top: 100px;
+        margin-top: 65%;
+        z-index: 3;
+        left: 0;
+        display: block;
+    }
+    /*----- shop end -----*/
+}
+
+/*============= RWD 413.98 start =============*/
+@media (max-width:413.98px) {
+    .highlight_bg {
+        display: none;
+    }
+
+    .akshar {
+        font-size: 20px;
+    }
+
+    .libre {
+        font-size: 22px;
+    }
+
+    .howtobuy .akshar {
+        font-size: 20px;
+    }
+
+    /*----- button start -----*/
+    .btn_o {
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+
+    .btn_w {
+        font-size: 18px;
+        padding: 5px 30px;
+    }
+
+    /*----- button end -----*/
+
+    .comments_item {
+        width: 200px;
+        margin: 0 auto;
+        padding: 60px 40px;
+    }
+
+    /*----- aside start -----*/
+    .aside {
+        display: none;
+    }
+
+    /*----- aside end -----*/
+    .form-popup {
+        display: none;
+    }
+
+    /*----- top start -----*/
+    .top {
+        width: 100%;
+        flex-direction: column;
+        margin: 160px 0;
+        margin-bottom: -120px;
+    }
+
+    .text_container {
+        width: 100%;
+        margin: 0 0 60px 0;
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .text_container h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 48px;
+        line-height: 60px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .highlight_bg {
+        width: 330px;
+        height: 60px;
+        top: 170px;
+        right: 31px;
+    }
+
+    .slider {
+        order: 1;
+    }
+
+    .donut_display {
+        margin-left: 0px;
+    }
+
+    .donut_display img{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .flag {
+        top: -336px;
+        left: 27px;
+    }
+
+    .flag img{
+        width: 90px;
+    }
+
+    .flag_text{
+        font-size:24px;
+    }
+
+    .dotted_bg img {
+        width: 40%;
+        top: -130px;
+        left: 241px;
+    }
+
+    .text_container span {
+        display: none;
+    }
+
+    /*----- top end -----*/
+
+    /*----- news start -----*/
+    .news {
+        display: none;
+    }
+
+    /*----- news end -----*/
+
+    /*----- feature start -----*/
+    .feature {
+        width: 100%;
+        /* overflow: hidden; */
+    }
+
+    .cream,
+    .choc {
+        display: none;
+    }
+
+    .choc-m {
+        margin-top: 150px;
+        display: block;
+    }
+
+    .cream-m {
+        display: block;
+        margin-top: 200px;
+    }
+
+    .choc-m img {
+        width: 100%;
+    }
+
+    .choc span {
+        top: -514px;
+        left: 330px;
+        z-index: 4;
+    }
+
+    /*----- feature end -----*/
+
+    /*----- dialog start -----*/
+    .dialog {
+        width: 100vw;
+        height: 600px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        top: 0px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+
+    .dialog_text {
+        width: 70vw;
+    }
+
+    .dialog_text h2:after {
+        display: none;
+    }
+
+    /*----- dialog end -----*/
+
+    /*----- how to buy start -----*/
+    .howtobuy {
+        z-index: 100;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .howtobuy ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+
+    .howtobuy li {
+        width: 38%;
+    }
+
+    .howtobuy li:nth-child(3),
+    .howtobuy li:nth-child(4) {
+        padding-top: 10%;
+    }
+
+    /*----- how to buy end -----*/
+
+    /*----- story start -----*/
+    .story {
+        width: 100%;
+    }
+
+    .story_container {
+        width: 70vw;
+    }
+
+    .story_photo {
+        display: none;
+    }
+
+    .story_container img {
+        display: none;
+    }
+
+    .story_01 {
+        top: 55px;
+        left: 217px;
+    }
+
+    .story_02 {
+        top: -6px;
+        left: 45px;
+        z-index: 2;
+    }
+
+    .story_03 {
+        top: 41px;
+        left: -86px;
+        z-index: 1;
+    }
+
+    .story_01:hover {
+        top: 55px;
+        left: 217px;
+        z-index: 3;
+    }
+
+    .story_02:hover {
+        top: -6px;
+        left: 45px;
+    }
+
+    .story_03:hover {
+        top: 41px;
+        left: -86px;
+    }
+
+    .desc {
+        width: 70vw;
+        height: 600px;
+    }
+
+    .desc h2:after {
+        display: none;
+    }
+
+    /*----- story end -----*/
+
+    /*----- glory start -----*/
+    .glory {
+        width: 100%;
+    }
+
+    .slogan h1 {
+        font-size: 26px;
+    }
+
+    #prevBtn {
+        left: 30px;
+        z-index: 1;
+    }
+
+    #nextBtn {
+        top: 52%;
+        right: 30px;
+        z-index: 1;
+    }
+
+    .quote_bg {
+        top: -11px;
+        left: 48px;
+    }
+
+    /*----- glory end -----*/
+
+    .comments {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .comments_item {
+        width: 150px;
+        margin: 0 auto;
+        padding: 40px 90px;
+    }
+
+    /*----- ig start -----*/
+    .followig {
+        width: 90%;
+    }
+
+    .follow_item{
+        margin-right:-55px
+    }
+
+    .followig .akshar {
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .follow_item img{
+        width: 75%;
+    }
+
+    .ig_icon{
+        margin-top: 20px;
+    margin-left: 20px;
+    }
+
+    /*----- ig end -----*/
+
+    /*----- shop start -----*/
+    .shop {
+        width: 100%;
+        margin-bottom: 482px;
+        /* display: flex; */
+    }
+
+    .shop img {
+        width: 100%;
+    }
+
+    .rotated_text {
+        display: none;
+    }
+
+    .dialog_shop {
+        width: 100%;
+        height: 400px;
+        background-color: #FAFAFA;
+        background-image: url('/image/top_dotted_bg.png');
+        background-repeat: repeat;
+        padding-top: 100px;
+        margin-top: 65%;
+        z-index: 3;
+        left: 0;
+        display: block;
+    }
+
+    .dialog_text_shop h2{
+        font-size:24px;
+    }
+    /*----- shop end -----*/
 }
