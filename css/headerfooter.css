@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 /*--------------- navbar start ---------------*/
 .nav_m {
     display: none;
