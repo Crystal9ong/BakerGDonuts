@@ -245,7 +245,8 @@
 
     .story_bg {
         height: 400px;
-
+        background-size: contain;
+        background-attachment: unset;
     }
 
     .whoweare {
