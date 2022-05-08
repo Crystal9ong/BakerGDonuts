@@ -671,6 +671,8 @@
     }
 
     .cream-m {
+        width: 100%;
+        /* overflow: hidden; */
         display: block;
         margin-top: 200px;
     }
@@ -1018,6 +1020,8 @@
     }
 
     .cream-m {
+        width: 100%;
+        overflow: hidden;
         display: block;
         margin-top: 200px;
     }
@@ -1359,6 +1363,8 @@
     }
 
     .cream-m {
+        width: 100%;
+        overflow: hidden;
         display: block;
         margin-top: 200px;
     }
