@@ -1,3 +1,11 @@
+/*============= RWD 1200-1399.98 start =============*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .choc span{
+        top: -204px;
+        left: 920px;
+    }
+}
+
 /*============= RWD 992-1199.98 start =============*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .popupquotebg{

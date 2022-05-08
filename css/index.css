@@ -530,7 +530,7 @@ p {
 
 .choc {
     width: 90%;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0 auto;
     position: relative;
     
@@ -538,7 +538,7 @@ p {
 
 .choc img{
     margin: 0 auto;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .choc-m {
