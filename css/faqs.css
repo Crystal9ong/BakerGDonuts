@@ -127,4 +127,9 @@ p {
 .faqs_container span {
     font-size: 20px;
 }
+
+.footer_items img{
+    width: 120px;
+}
+
 /*-------- faqs end --------*/

@@ -126,3 +126,7 @@ p {
 .input_btn{
     text-align: right;
 }
+
+.footer_items img{
+    width: 120px;
+}
