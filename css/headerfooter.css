@@ -1,7 +1,3 @@
-body{
-    overflow-x: hidden;
-}
-
 /*--------------- navbar start ---------------*/
 .nav_m {
     display: none;
@@ -148,7 +144,7 @@ ul.nav_line:before {
         background-color: #565656;
         clip-path: circle(100px at 90% -10%);
         -webkit-clip-path: circle(100px at 90% -20%);
-        transition: all .7s ease-out;
+        transition: all .5s ease-out;
         display: none;
     }
 
@@ -276,7 +272,7 @@ ul.nav_line:before {
         background-color: #565656;
         clip-path: circle(100px at 90% -10%);
         -webkit-clip-path: circle(100px at 90% -20%);
-        transition: all .7s ease-out;
+        transition: all .5s ease-out;
         display: none;
     }
 
@@ -404,7 +400,7 @@ ul.nav_line:before {
         background-color: #565656;
         clip-path: circle(100px at 90% -10%);
         -webkit-clip-path: circle(100px at 90% -20%);
-        transition: all 1s ease-out;
+        transition: all .5 ease-out;
         display: none;
     }
 
@@ -531,7 +527,7 @@ ul.nav_line:before {
         background-color: #565656;
         clip-path: circle(100px at 90% -10%);
         -webkit-clip-path: circle(100px at 90% -20%);
-        transition: all 1s ease-out;
+        transition: all .5s ease-out;
         display: none;
     }
 

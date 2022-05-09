@@ -8,10 +8,22 @@
     .choc-m {
         display: none;
     }
+
+.choc{
+    width: 100%;
+    overflow: hidden;
+}
+    
+
+
 }
 
 /*============= RWD 992-1199.98 start =============*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+   .dialog img{
+       display: none;
+   }
+   
     .popupquotebg {
         width: 400px;
     }
@@ -112,7 +124,7 @@
     }
 
     .choc {
-        width: 100%;
+    
     }
 
     .choc img {
@@ -654,7 +666,7 @@
     .dotted_bg img {
         /* display: none; */
         top: -168px;
-        left: 337px;
+        left: 290px;
 
     }
 
@@ -689,14 +701,6 @@
         display: none;
     }
 
-    .cream img,
-    .choc img {
-        display: none;
-    }
-
-    .choc-m {
-        display: none;
-    }
 
     .choc-m {
         margin-top: 150px;
@@ -707,6 +711,7 @@
         display: none;
     }
 
+
     .cream-m {
         display: none;
         /* width: 100%;
@@ -714,15 +719,26 @@
         margin-top: 200px; */
     }
 
+    .cream{
+        width: 100%;
+        margin-top: 200px;
+        overflow: hidden;
+    }
+
+    .choc-m span{
+        display: none;
+    }
+
     .choc-m img {
         width: 100%;
-        margin-top: 450px;
+        margin-top: 580px;
     }
 
     .choc span {
         top: -514px;
         left: 330px;
         z-index: 4;
+       
     }
 
     /*----- feature end -----*/
@@ -737,7 +753,7 @@
         top: 0px;
         z-index: 3;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 190px;
     }
 
     .dialog_text {
@@ -1032,7 +1048,7 @@
     .dotted_bg img {
         width: 40%;
         top: -117px;
-        left: 277px;
+        left: 229px;
     }
 
     .text_container span {
