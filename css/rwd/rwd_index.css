@@ -1,47 +1,51 @@
 /*============= RWD 1200-1399.98 start =============*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .choc span{
+    .choc span {
         top: -204px;
         left: 920px;
+    }
+
+    .choc-m {
+        display: none;
     }
 }
 
 /*============= RWD 992-1199.98 start =============*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .popupquotebg{
+    .popupquotebg {
         width: 400px;
     }
 
-    .popupquoteb{
+    .popupquoteb {
         width: 90px;
     }
 
-    .popupquotes{
-        top:358px;
+    .popupquotes {
+        top: 358px;
         width: 40px;
     }
 
-    .popup-result-text .akshar{
-        font-size:20px;
+    .popup-result-text .akshar {
+        font-size: 20px;
     }
 
-    .holla{
-        font-size:40px;
+    .holla {
+        font-size: 40px;
     }
 
-    .popup-result-text{
-        padding:60px 60px;
+    .popup-result-text {
+        padding: 60px 60px;
     }
 
-    .popup-result-text h4{
+    .popup-result-text h4 {
         font-size: 18px;
     }
 
-    .popup-result-cancel{
-        top:42px;
+    .popup-result-cancel {
+        top: 42px;
         left: 380px;
     }
-    
+
     .top {
         width: 90%;
     }
@@ -103,6 +107,10 @@
         width: 100%;
     }
 
+    .choc-m {
+        display: none;
+    }
+
     .choc {
         width: 100%;
     }
@@ -112,7 +120,7 @@
     }
 
     .choc span {
-       display: none;
+        display: none;
     }
 
     .cream {
@@ -273,68 +281,68 @@
 
 /*============= RWD 768-991.98 start =============*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .form-popup{
+    .form-popup {
         width: 280px;
-    height: 380px;
+        height: 380px;
     }
 
-    .form-popup .akshar{
+    .form-popup .akshar {
         font-size: 14px;
     }
 
-    .form-popup h3{
+    .form-popup h3 {
         font-size: 20px;
     }
 
-    .form-popup span{
+    .form-popup span {
         font-size: 16px;
         line-height: 18px;
     }
 
-    .pop_email input{
+    .pop_email input {
         width: 200px;
         margin: 5px 0;
     }
 
-    .pop_email{
-        padding-bottom:23px;
+    .pop_email {
+        padding-bottom: 23px;
     }
 
     .popuplogo {
         width: 25%;
     }
 
-    .popupquotebg{
+    .popupquotebg {
         width: 400px;
     }
 
-    .popupquoteb{
+    .popupquoteb {
         width: 90px;
     }
 
-    .popupquotes{
-        top:358px;
+    .popupquotes {
+        top: 358px;
         width: 40px;
     }
 
-    .popup-result-text .akshar{
-        font-size:20px;
+    .popup-result-text .akshar {
+        font-size: 20px;
     }
 
-    .holla{
-        font-size:40px;
+    .holla {
+        font-size: 40px;
     }
 
-    .popup-result-text{
-        padding:60px 60px;
+    .popup-result-text {
+        padding: 60px 60px;
     }
 
-    .popup-result-text h4{
+    .popup-result-text h4 {
         font-size: 18px;
     }
 
-    .popup-result-cancel{
-        top:42px;
+    .popup-result-cancel {
+        top: 42px;
         left: 380px;
     }
 
@@ -404,6 +412,10 @@
         width: 100%;
     }
 
+    .choc-m {
+        display: none;
+    }
+
     .choc {
         width: 100%;
     }
@@ -413,7 +425,7 @@
     }
 
     .choc span {
-       display: none;
+        display: none;
     }
 
     .cream {
@@ -643,7 +655,7 @@
         /* display: none; */
         top: -168px;
         left: 337px;
-        
+
     }
 
     .text_container span {
@@ -665,12 +677,24 @@
         /* overflow: hidden; */
     }
 
-    .feature .dotted_bg{
+    .feature .dotted_bg {
+        display: none;
+    }
+
+    .choc-m{
+        display: none;
+    }
+
+    .choc {
         display: none;
     }
 
     .cream img,
-    .choc img{
+    .choc img {
+        display: none;
+    }
+
+    .choc-m {
         display: none;
     }
 
@@ -679,7 +703,7 @@
         display: block;
     }
 
-    .cream_bg{
+    .cream_bg {
         display: none;
     }
 
@@ -902,7 +926,13 @@
 
 /*============= RWD 414-575.98 start =============*/
 @media (min-width: 414px) and (max-width:575.98px) {
+    .choc {
+        display: none;
+    }
 
+    .choc-m {
+        display: none;
+    }
 
     .akshar {
         font-size: 20px;
@@ -927,7 +957,7 @@
         padding: 6px 30px;
     }
 
-    .donut_display img{
+    .donut_display img {
         width: 80%;
         margin: 0 auto;
     }
@@ -991,11 +1021,11 @@
         left: 40px;
     }
 
-    .flag img{
+    .flag img {
         width: 80%;
     }
 
-    .flag h5{
+    .flag h5 {
         font-size: 22px;
     }
 
@@ -1198,8 +1228,8 @@
         font-size: 20px;
     }
 
-    .follow_item img{
-        width: 80%; 
+    .follow_item img {
+        width: 80%;
     }
 
     .follow_item {
@@ -1235,11 +1265,17 @@
         left: 0;
         display: block;
     }
+
     /*----- shop end -----*/
 }
 
 /*============= RWD 413.98 start =============*/
 @media (max-width:413.98px) {
+
+    .choc-m {
+        display: none;
+    }
+
     .highlight_bg {
         display: none;
     }
@@ -1324,7 +1360,7 @@
         margin-left: 0px;
     }
 
-    .donut_display img{
+    .donut_display img {
         width: 85%;
         margin: 0 auto;
     }
@@ -1334,12 +1370,12 @@
         left: 27px;
     }
 
-    .flag img{
+    .flag img {
         width: 90px;
     }
 
-    .flag_text{
-        font-size:24px;
+    .flag_text {
+        font-size: 24px;
     }
 
     .dotted_bg img {
@@ -1378,17 +1414,17 @@
     }
 
     .cream-m {
-display: none;
+        display: none;
     }
 
-    .cream_bg{
+    .cream_bg {
         display: none;
     }
 
     .choc-m img {
         margin-top: 560px;
         width: 100%;
-        
+
     }
 
     .choc span {
@@ -1552,8 +1588,8 @@ display: none;
         width: 90%;
     }
 
-    .follow_item{
-        margin-right:-55px
+    .follow_item {
+        margin-right: -55px
     }
 
     .followig .akshar {
@@ -1561,13 +1597,13 @@ display: none;
         font-size: 20px;
     }
 
-    .follow_item img{
+    .follow_item img {
         width: 75%;
     }
 
-    .ig_icon{
+    .ig_icon {
         margin-top: 20px;
-    margin-left: 20px;
+        margin-left: 20px;
     }
 
     /*----- ig end -----*/
@@ -1600,8 +1636,9 @@ display: none;
         display: block;
     }
 
-    .dialog_text_shop h2{
-        font-size:24px;
+    .dialog_text_shop h2 {
+        font-size: 24px;
     }
+
     /*----- shop end -----*/
 }
