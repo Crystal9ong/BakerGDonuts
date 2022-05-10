@@ -131,8 +131,10 @@
     }
 
     .story_bg {
-        height: 400px;
-
+        height: 500px;
+        background-size:contain;
+        background-attachment:unset;
+        margin-bottom: -130px;
     }
 
     .whoweare {
