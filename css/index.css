@@ -537,8 +537,8 @@ p {
 }
 
 .choc img{
-    margin: 0 auto;
-    /* width: 100%; */
+    /* margin: 0 auto; */
+    width: 100%;
 }
 
 .choc-m {
@@ -578,6 +578,10 @@ p {
 }
 
 /*--------------- dialog start ---------------*/
+.dialog-m{
+display: none;
+}
+
 .dialog {
     width: 510px;
     height: 530px;
@@ -988,6 +992,10 @@ p {
 }
 
 /*--------------- dialog start ---------------*/
+.dialog_shop-m{
+    display: none;
+}
+
 .dialog_shop {
     width: 510px;
     height: 530px;
