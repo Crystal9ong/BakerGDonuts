@@ -140,8 +140,6 @@
         display: none;
     }
 
-    .choc {}
-
     .choc img {
         width: 100%;
     }
@@ -210,7 +208,7 @@
     }
 
     .howtobuy h4 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .story_container {
@@ -524,7 +522,7 @@
     }
 
     .howtobuy h4 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .story_container {
@@ -798,6 +796,18 @@
         display: none;
     }
 
+    .dialog_text p{
+        text-align: center;
+    }
+
+    .dialog_text_shop p{
+        text-align: center;
+    }
+
+    .desc p{
+        text-align: center;
+    }
+
     /*----- dialog end -----*/
 
     .akshar {
@@ -810,6 +820,10 @@
 
     .howtobuy .akshar {
         font-size: 24px;
+    }
+
+    .howtobuy h4{
+        font-size: 16px;
     }
 
     /*----- how to buy start -----*/
@@ -1171,6 +1185,10 @@
         display: none;
     }
 
+    .dialog_text p{
+        text-align: center;
+    }
+
     /*----- dialog end -----*/
 
     /*----- how to buy start -----*/
@@ -1189,6 +1207,10 @@
 
     .howtobuy li {
         width: 38%;
+    }
+
+    .howtobuy h4{
+        font-size: 16px;
     }
 
     .howtobuy li:nth-child(3),
@@ -1251,6 +1273,10 @@
     .desc {
         width: 70vw;
         height: 600px;
+    }
+
+    .desc p{
+        text-align: center;
     }
 
     .desc h2:after {
@@ -1340,6 +1366,10 @@
         display: block;
     }
 
+    .dialog_text_shop p{
+        text-align:center;
+    }
+
     /*----- shop end -----*/
 }
 
@@ -1364,6 +1394,10 @@
 
     .howtobuy .akshar {
         font-size: 20px;
+    }
+
+    .howtobuy h4{
+        font-size:16px;
     }
 
     /*----- button start -----*/
@@ -1452,7 +1486,7 @@
     .slider_decoration .dotted_bg img {
         width: 40%;
         top: -117px;
-        left: 229px;
+        left: 213px;
     }
 
     .text_container span {
@@ -1533,6 +1567,18 @@
 
     .dialog_text h2:after {
         display: none;
+    }
+
+    .dialog_text p{
+        text-align:center;
+    }
+
+    .desc p{
+        text-align:center;
+    }
+
+    .dialog_text_shop p{
+        text-align:center;
     }
 
     /*----- dialog end -----*/
